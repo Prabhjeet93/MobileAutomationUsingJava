@@ -1,0 +1,807 @@
+2018-12-27 13:52:31:548 - info: [Appium] Welcome to Appium v1.9.1
+2018-12-27 13:52:31:550 - info: [Appium] Non-default server args:
+2018-12-27 13:52:31:550 - info: [Appium]   port: 4567
+2018-12-27 13:52:31:551 - info: [Appium]   sessionOverride: true
+2018-12-27 13:52:31:551 - info: [Appium]   log: /Users/rahularora/Desktop/appiumgridfiles/appium_1.log
+2018-12-27 13:52:31:551 - info: [Appium]   nodeconfig: /Users/rahularora/Desktop/appiumgridfiles/device1.json
+2018-12-27 13:52:31:551 - info: [Appium]   tmpDir: /tmp/iphoneX
+2018-12-27 13:52:31:551 - info: [Appium]   wdaLocalPort: 8200
+2018-12-27 13:52:31:552 - info: [Appium]   udid: 571e1c5acf8c4e0d47c6d146186d8749c8fab5b0
+2018-12-27 13:52:31:552 - warn: [Appium] Deprecated server args:
+2018-12-27 13:52:31:552 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0"}'
+2018-12-27 13:52:31:553 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-12-27 13:52:31:553 - info: [Appium]   udid: 571e1c5acf8c4e0d47c6d146186d8749c8fab5b0
+2018-12-27 13:52:31:621 - info: [debug] [Appium] Starting auto register thread for grid. Will try to register every 5000 ms.
+2018-12-27 13:52:31:622 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4567
+2018-12-27 13:52:36:777 - info: [debug] [Appium] Appium successfully registered with the grid on http://localhost:4444
+2018-12-27 13:52:39:087 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:39:087 - info: [HTTP] {}
+2018-12-27 13:52:39:090 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:39:092 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:39:096 - info: [HTTP] <-- GET /wd/hub/status 200 8 ms - 151
+2018-12-27 13:52:39:097 - info: [HTTP] 
+2018-12-27 13:52:41:146 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:41:147 - info: [HTTP] {}
+2018-12-27 13:52:41:148 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:41:148 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:41:150 - info: [HTTP] <-- GET /wd/hub/status 200 3 ms - 151
+2018-12-27 13:52:41:150 - info: [HTTP] 
+2018-12-27 13:52:43:160 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:43:161 - info: [HTTP] {}
+2018-12-27 13:52:43:161 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:43:161 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:43:162 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:52:43:163 - info: [HTTP] 
+2018-12-27 13:52:45:169 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:45:170 - info: [HTTP] {}
+2018-12-27 13:52:45:170 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:45:171 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:45:171 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:52:45:172 - info: [HTTP] 
+2018-12-27 13:52:47:177 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:47:177 - info: [HTTP] {}
+2018-12-27 13:52:47:178 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:47:178 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:47:179 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:52:47:179 - info: [HTTP] 
+2018-12-27 13:52:49:193 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:49:194 - info: [HTTP] {}
+2018-12-27 13:52:49:194 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:49:195 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:49:196 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:52:49:196 - info: [HTTP] 
+2018-12-27 13:52:51:206 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:51:207 - info: [HTTP] {}
+2018-12-27 13:52:51:207 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:51:208 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:51:209 - info: [HTTP] <-- GET /wd/hub/status 200 3 ms - 151
+2018-12-27 13:52:51:209 - info: [HTTP] 
+2018-12-27 13:52:53:214 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:53:214 - info: [HTTP] {}
+2018-12-27 13:52:53:214 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:53:215 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:53:218 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:52:53:218 - info: [HTTP] 
+2018-12-27 13:52:55:228 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:55:228 - info: [HTTP] {}
+2018-12-27 13:52:55:229 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:55:229 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:55:230 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:52:55:230 - info: [HTTP] 
+2018-12-27 13:52:57:235 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:57:235 - info: [HTTP] {}
+2018-12-27 13:52:57:236 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:57:236 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:57:237 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:52:57:237 - info: [HTTP] 
+2018-12-27 13:52:59:243 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:52:59:244 - info: [HTTP] {}
+2018-12-27 13:52:59:244 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:52:59:244 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:52:59:245 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:52:59:245 - info: [HTTP] 
+2018-12-27 13:53:00:148 - info: [HTTP] --> POST /wd/hub/session
+2018-12-27 13:53:00:148 - info: [HTTP] {"desiredCapabilities":{"app":"/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236","platformVersion":"12.1.3","automationName":"XCUITest","platformName":"ios","udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0","deviceName":"iPhone X","wdaLocalPort":8200},"capabilities":{"firstMatch":[{"platformName":"ios","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236"}]}}
+2018-12-27 13:53:00:149 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236","platformVersion":"12.1.3","automationName":"XCUITest","platformName":"ios","udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0","deviceName":"iPhone X","wdaLocalPort":8200},null,{"firstMatch":[{"platformName":"ios","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236"}]}]
+2018-12-27 13:53:00:150 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1545918780150 (19:23:00 GMT+0530 (IST))
+2018-12-27 13:53:00:158 - warn: [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2018-12-27 13:53:00:168 - info: [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank
+2018-12-27 13:53:00:168 - info: [Appium] Trying to fix W3C capabilities by merging them with JSONWP caps
+2018-12-27 13:53:00:170 - warn: [BaseDriver] The capabilities ["app","platformVersion","automationName","deviceName","wdaLocalPort","udid"] are not standard capabilities and should have an extension prefix
+2018-12-27 13:53:00:174 - info: [Appium] Creating new XCUITestDriver (v2.94.2) session
+2018-12-27 13:53:00:174 - info: [Appium] Capabilities:
+2018-12-27 13:53:00:174 - info: [Appium]   app: /Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app
+2018-12-27 13:53:00:175 - info: [Appium]   platformVersion: 12.1.3
+2018-12-27 13:53:00:175 - info: [Appium]   automationName: XCUITest
+2018-12-27 13:53:00:175 - info: [Appium]   deviceName: iPhone X
+2018-12-27 13:53:00:176 - info: [Appium]   wdaLocalPort: 8200
+2018-12-27 13:53:00:176 - info: [Appium]   platformName: ios
+2018-12-27 13:53:00:177 - info: [Appium]   server:CONFIG_UUID: 2b015d97-abc8-41d2-aadf-7efe09454236
+2018-12-27 13:53:00:177 - info: [Appium]   udid: 571e1c5acf8c4e0d47c6d146186d8749c8fab5b0
+2018-12-27 13:53:00:183 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:app... and MJSONWP desired capabilities {"udid":"571e1c5acf8c4e0d47... were provided
+2018-12-27 13:53:00:185 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:app...
+2018-12-27 13:53:00:196 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: server:CONFIG_UUID.
+2018-12-27 13:53:00:197 - info: [BaseDriver] Session created with session id: 9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b
+2018-12-27 13:53:00:315 - info: [debug] [XCUITest] Current user: 'rahularora'
+2018-12-27 13:53:00:739 - info: [debug] [XCUITest] Xcode version set to '10.1' (tools v10.1.0.0.1.1539992718)
+2018-12-27 13:53:00:750 - info: [debug] [XCUITest] iOS SDK Version set to '12.1'
+2018-12-27 13:53:00:750 - info: [debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1545918780750 (19:23:00 GMT+0530 (IST))
+2018-12-27 13:53:01:260 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:01:260 - info: [HTTP] {}
+2018-12-27 13:53:01:260 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:01:264 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:01:265 - info: [HTTP] <-- GET /wd/hub/status 200 5 ms - 151
+2018-12-27 13:53:01:265 - info: [HTTP] 
+2018-12-27 13:53:01:524 - info: [debug] [XCUITest] Available devices: 7ae544323f497983cf0729bc81d5e6128342a125, 571e1c5acf8c4e0d47c6d146186d8749c8fab5b0
+2018-12-27 13:53:01:524 - info: [debug] [XCUITest] Creating iDevice object with udid '571e1c5acf8c4e0d47c6d146186d8749c8fab5b0'
+2018-12-27 13:53:01:525 - info: [XCUITest] Determining device to run tests on: udid: '571e1c5acf8c4e0d47c6d146186d8749c8fab5b0', real device: true
+2018-12-27 13:53:01:526 - info: [BaseDriver] Using local app '/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app'
+2018-12-27 13:53:01:527 - info: [debug] [BaseDriver] Event 'appConfigured' logged at 1545918781527 (19:23:01 GMT+0530 (IST))
+2018-12-27 13:53:01:527 - info: [debug] [XCUITest] Checking whether app '/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app' is actually present on file system
+2018-12-27 13:53:01:527 - info: [debug] [XCUITest] App is present
+2018-12-27 13:53:01:531 - info: [debug] [iOS] Getting bundle ID from app '/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app': 'com.facebook.wda.integrationApp'
+2018-12-27 13:53:01:532 - info: [debug] [BaseDriver] Event 'resetStarted' logged at 1545918781532 (19:23:01 GMT+0530 (IST))
+2018-12-27 13:53:01:532 - info: [debug] [XCUITest] Reset: running ios real device reset flow
+2018-12-27 13:53:01:533 - info: [debug] [BaseDriver] Event 'resetComplete' logged at 1545918781533 (19:23:01 GMT+0530 (IST))
+2018-12-27 13:53:01:538 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2018-12-27 13:53:01:538 - info: [debug] [iOSLog] Starting iOS device log capture with: 'idevicesyslog'
+2018-12-27 13:53:01:734 - info: [debug] [XCUITest] Crash reports root '/Users/rahularora/Library/Logs/CrashReporter/MobileDevice/iPhone' does not exist. Got nothing to gather.
+2018-12-27 13:53:01:735 - info: [debug] [BaseDriver] Event 'logCaptureStarted' logged at 1545918781735 (19:23:01 GMT+0530 (IST))
+2018-12-27 13:53:01:735 - info: [XCUITest] Setting up real device
+2018-12-27 13:53:01:738 - info: [debug] [XCUITest] Verifying application platform
+2018-12-27 13:53:01:741 - info: [debug] [XCUITest] CFBundleSupportedPlatforms: ["iPhoneOS"]
+2018-12-27 13:53:02:256 - info: [debug] [XCUITest] Reset requested. Removing app with id 'com.facebook.wda.integrationApp' from the device
+2018-12-27 13:53:02:784 - info: [debug] [XCUITest] Installing '/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app' on device with UUID '571e1c5acf8c4e0d47c6d146186d8749c8fab5b0'...
+2018-12-27 13:53:03:274 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:03:275 - info: [HTTP] {}
+2018-12-27 13:53:03:275 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:03:276 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:03:277 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:53:03:277 - info: [HTTP] 
+2018-12-27 13:53:04:199 - info: [debug] [XCUITest] The app has been installed successfully.
+2018-12-27 13:53:04:199 - info: [debug] [BaseDriver] Event 'appInstalled' logged at 1545918784199 (19:23:04 GMT+0530 (IST))
+2018-12-27 13:53:04:202 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2018-12-27 13:53:04:202 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2018-12-27 13:53:04:356 - info: [debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 8200 have been found
+2018-12-27 13:53:04:361 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:04:363 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:04:378 - info: [debug] [XCUITest] WDA is not listening at 'http://localhost:8200/'
+2018-12-27 13:53:04:379 - info: [debug] [XCUITest] WDA is currently not running. There is nothing to cache
+2018-12-27 13:53:04:379 - info: [debug] [XCUITest] Trying to start WebDriverAgent 1 times with 10000ms interval
+2018-12-27 13:53:04:380 - info: [debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1545918784380 (19:23:04 GMT+0530 (IST))
+2018-12-27 13:53:04:381 - info: [XCUITest] Launching WebDriverAgent on the device
+2018-12-27 13:53:04:383 - info: [debug] [XCUITest] Carthage found: '/usr/local/bin/carthage'
+2018-12-27 13:53:04:386 - info: [debug] [XCUITest] Killing running processes 'xcodebuild.*571e1c5acf8c4e0d47c6d146186d8749c8fab5b0, iproxy 8200' for the device 571e1c5acf8c4e0d47c6d146186d8749c8fab5b0...
+2018-12-27 13:53:04:634 - info: [debug] [XCUITest] 'pgrep -nif xcodebuild.*571e1c5acf8c4e0d47c6d146186d8749c8fab5b0' didn't detect any matching processes. Return code: 1
+2018-12-27 13:53:04:675 - info: [debug] [XCUITest] 'pgrep -nif iproxy 8200' didn't detect any matching processes. Return code: 1
+2018-12-27 13:53:04:676 - info: [debug] [XCUITest] Starting iproxy to forward traffic from local port 8200 to device port 8100 over USB for the device 571e1c5acf8c4e0d47c6d146186d8749c8fab5b0
+2018-12-27 13:53:05:284 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:05:285 - info: [HTTP] {}
+2018-12-27 13:53:05:286 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:05:288 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:05:293 - info: [HTTP] <-- GET /wd/hub/status 200 6 ms - 151
+2018-12-27 13:53:05:293 - info: [HTTP] 
+2018-12-27 13:53:07:302 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:07:303 - info: [HTTP] {}
+2018-12-27 13:53:07:303 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:07:304 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:07:306 - info: [HTTP] <-- GET /wd/hub/status 200 3 ms - 151
+2018-12-27 13:53:07:306 - info: [HTTP] 
+2018-12-27 13:53:09:313 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:09:314 - info: [HTTP] {}
+2018-12-27 13:53:09:314 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:09:314 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:09:315 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:53:09:315 - info: [HTTP] 
+2018-12-27 13:53:09:694 - info: [debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=571e1c5acf8c4e0d47c6d146186d8749c8fab5b0 IPHONEOS_DEPLOYMENT_TARGET=12.1' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2018-12-27 13:53:09:696 - info: [debug] [XCUITest] Output from xcodebuild will not be logged. To change this, use 'showXcodeLog' desired capability
+2018-12-27 13:53:10:708 - info: [debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+2018-12-27 13:53:10:714 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:10:715 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:11:333 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:11:333 - info: [HTTP] {}
+2018-12-27 13:53:11:333 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:11:334 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:11:335 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:53:11:335 - info: [HTTP] 
+2018-12-27 13:53:11:738 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:11:739 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:12:747 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:12:748 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:13:348 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:13:348 - info: [HTTP] {}
+2018-12-27 13:53:13:349 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:13:349 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:13:350 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:53:13:350 - info: [HTTP] 
+2018-12-27 13:53:13:756 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:13:757 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:14:751 - info: [debug] [XCUITest] Log file for xcodebuild test: /Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Logs/Test/Test-WebDriverAgentRunner-2018.12.27_19-23-12-+0530.xcresult/2_Test/Diagnostics/WebDriverAgentRunner-9BF7B40B-0160-46E4-A7C3-D880FE192BCE/WebDriverAgentRunner-424C7117-9F0D-4424-AB89-46C46DAAFA89/Session-WebDriverAgentRunner-2018-12-27_192314-XWA2HP.log
+2018-12-27 13:53:14:764 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:14:765 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:15:364 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:15:365 - info: [HTTP] {}
+2018-12-27 13:53:15:365 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:15:368 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:15:369 - info: [HTTP] <-- GET /wd/hub/status 200 4 ms - 151
+2018-12-27 13:53:15:369 - info: [HTTP] 
+2018-12-27 13:53:15:772 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:15:772 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:16:780 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:16:780 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:17:375 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:17:376 - info: [HTTP] {}
+2018-12-27 13:53:17:376 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:17:376 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:17:377 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:53:17:377 - info: [HTTP] 
+2018-12-27 13:53:17:787 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:17:788 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:18:798 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:18:798 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:19:385 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:19:385 - info: [HTTP] {}
+2018-12-27 13:53:19:386 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:19:386 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:19:390 - info: [HTTP] <-- GET /wd/hub/status 200 4 ms - 151
+2018-12-27 13:53:19:390 - info: [HTTP] 
+2018-12-27 13:53:19:806 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:19:807 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:20:814 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:20:814 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:20:831 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"12.1.3\",\n      \"sdkVersion\" : \"12.0\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"12.1.3\",\n      \"ip\" : \"192.168.1.12\"\n    },\n    \"build\" : {\n      \"upgradedAt\" : \"1545329693015\",\n      \"time\" : \"Dec 20 2018 23:59:49\",\n      \"productBundleIdentifier\" : \"com.facebook.WebDriverAgentRunner\"\n    }\n  },\n  \"sessionId\" : \"957B365A-5D9F-4BD9-92E0-C7BE3EA1DB5C\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:20:832 - info: [debug] [XCUITest] WebDriverAgent information:
+2018-12-27 13:53:20:832 - info: [debug] [XCUITest] {
+2018-12-27 13:53:20:832 - info: [debug] [XCUITest]   "state": "success",
+2018-12-27 13:53:20:832 - info: [debug] [XCUITest]   "os": {
+2018-12-27 13:53:20:832 - info: [debug] [XCUITest]     "name": "iOS",
+2018-12-27 13:53:20:833 - info: [debug] [XCUITest]     "version": "12.1.3",
+2018-12-27 13:53:20:833 - info: [debug] [XCUITest]     "sdkVersion": "12.0"
+2018-12-27 13:53:20:833 - info: [debug] [XCUITest]   },
+2018-12-27 13:53:20:833 - info: [debug] [XCUITest]   "ios": {
+2018-12-27 13:53:20:833 - info: [debug] [XCUITest]     "simulatorVersion": "12.1.3",
+2018-12-27 13:53:20:833 - info: [debug] [XCUITest]     "ip": "192.168.1.12"
+2018-12-27 13:53:20:833 - info: [debug] [XCUITest]   },
+2018-12-27 13:53:20:834 - info: [debug] [XCUITest]   "build": {
+2018-12-27 13:53:20:834 - info: [debug] [XCUITest]     "upgradedAt": "1545329693015",
+2018-12-27 13:53:20:834 - info: [debug] [XCUITest]     "time": "Dec 20 2018 23:59:49",
+2018-12-27 13:53:20:834 - info: [debug] [XCUITest]     "productBundleIdentifier": "com.facebook.WebDriverAgentRunner"
+2018-12-27 13:53:20:834 - info: [debug] [XCUITest]   }
+2018-12-27 13:53:20:835 - info: [debug] [XCUITest] }
+2018-12-27 13:53:20:835 - info: [debug] [XCUITest] WebDriverAgent successfully started after 11138ms
+2018-12-27 13:53:20:836 - info: [debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1545918800836 (19:23:20 GMT+0530 (IST))
+2018-12-27 13:53:20:837 - info: [debug] [XCUITest] Sending createSession command to WDA
+2018-12-27 13:53:20:840 - info: [debug] [JSONWP Proxy] Matched '/session' to command name 'createSession'
+2018-12-27 13:53:20:840 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/session] with body: {"desiredCapabilities":{"bundleId":"com.facebook.wda.integrationApp","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+2018-12-27 13:53:21:398 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:21:398 - info: [HTTP] {}
+2018-12-27 13:53:21:399 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:21:399 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:21:400 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:53:21:400 - info: [HTTP] 
+2018-12-27 13:53:23:215 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1","capabilities":{"device":"iphone","browserName":"IntegrationApp","sdkVersion":"12.1.3","CFBundleIdentifier":"com.facebook.wda.integrationApp"}},"sessionId":"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1","status":0}
+2018-12-27 13:53:23:216 - info: [debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1545918803215 (19:23:23 GMT+0530 (IST))
+2018-12-27 13:53:23:216 - info: [debug] [BaseDriver] Event 'wdaStarted' logged at 1545918803216 (19:23:23 GMT+0530 (IST))
+2018-12-27 13:53:23:216 - info: [XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+2018-12-27 13:53:23:217 - info: [debug] [BaseDriver] Event 'orientationSet' logged at 1545918803217 (19:23:23 GMT+0530 (IST))
+2018-12-27 13:53:23:218 - info: [Appium] New XCUITestDriver session created successfully, session 9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b added to master session list
+2018-12-27 13:53:23:227 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1545918803227 (19:23:23 GMT+0530 (IST))
+2018-12-27 13:53:23:228 - info: [debug] [W3C] Cached the protocol value 'W3C' for the new session 9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b
+2018-12-27 13:53:23:228 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236","app":"/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app","platformVersion":"12.1.3","automationName":"XCUITest","deviceName":"iPhone X","wdaLocalPort":8200,"udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0"}}
+2018-12-27 13:53:23:229 - info: [HTTP] <-- POST /wd/hub/session 200 23081 ms - 660
+2018-12-27 13:53:23:229 - info: [HTTP] 
+2018-12-27 13:53:23:283 - info: [HTTP] --> GET /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b
+2018-12-27 13:53:23:284 - info: [HTTP] {}
+2018-12-27 13:53:23:285 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b"]
+2018-12-27 13:53:23:286 - info: [debug] [XCUITest] Executing command 'getSession'
+2018-12-27 13:53:23:307 - info: [debug] [JSONWP Proxy] Matched '/' to command name 'getSession'
+2018-12-27 13:53:23:310 - info: [debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1] with no body
+2018-12-27 13:53:23:390 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"IntegrationApp\",\n      \"sdkVersion\" : \"12.1.3\",\n      \"CFBundleIdentifier\" : \"com.facebook.wda.integrationApp\"\n    }\n  },\n  \"sessionId\" : \"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:23:400 - info: [debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1/wda/screen] with no body
+2018-12-27 13:53:23:408 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:23:409 - info: [HTTP] {}
+2018-12-27 13:53:23:409 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:23:411 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:23:412 - info: [HTTP] <-- GET /wd/hub/status 200 3 ms - 151
+2018-12-27 13:53:23:412 - info: [HTTP] 
+2018-12-27 13:53:23:766 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 44\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:23:770 - info: [debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1/window/size] with no body
+2018-12-27 13:53:23:830 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 812\n  },\n  \"sessionId\" : \"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:23:831 - info: [XCUITest] Merging WDA caps over Appium caps for session detail response
+2018-12-27 13:53:23:832 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0","platformName":"ios","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236","app":"/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app","platformVersion":"12.1.3","automationName":"XCUITest","deviceName":"iPhone X","wdaLocalPort":8200,"device":"iphone","browserName":"IntegrationApp","sdkVersion":"12.1.3","CFBundleIdentifier":"com.facebook.wda.integrationApp","pixelRatio":2,"statBarHeight":44,"viewportRect":{"left":0,"top":88,"width":750,"height":1536}}
+2018-12-27 13:53:23:833 - info: [HTTP] <-- GET /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b 200 550 ms - 617
+2018-12-27 13:53:23:833 - info: [HTTP] 
+2018-12-27 13:53:23:852 - info: [HTTP] --> GET /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b
+2018-12-27 13:53:23:853 - info: [HTTP] {}
+2018-12-27 13:53:23:853 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b"]
+2018-12-27 13:53:23:854 - info: [debug] [XCUITest] Executing command 'getSession'
+2018-12-27 13:53:23:866 - info: [XCUITest] Merging WDA caps over Appium caps for session detail response
+2018-12-27 13:53:23:867 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0","platformName":"ios","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236","app":"/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app","platformVersion":"12.1.3","automationName":"XCUITest","deviceName":"iPhone X","wdaLocalPort":8200,"device":"iphone","browserName":"IntegrationApp","sdkVersion":"12.1.3","CFBundleIdentifier":"com.facebook.wda.integrationApp","pixelRatio":2,"statBarHeight":44,"viewportRect":{"left":0,"top":88,"width":750,"height":1536}}
+2018-12-27 13:53:23:867 - info: [HTTP] <-- GET /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b 200 15 ms - 617
+2018-12-27 13:53:23:868 - info: [HTTP] 
+2018-12-27 13:53:23:885 - info: [HTTP] --> POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/timeouts
+2018-12-27 13:53:23:885 - info: [HTTP] {"implicit":80000}
+2018-12-27 13:53:23:887 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,80000,"9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b"]
+2018-12-27 13:53:23:888 - info: [debug] [XCUITest] Executing command 'timeouts'
+2018-12-27 13:53:23:896 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":80000}}
+2018-12-27 13:53:23:897 - info: [debug] [BaseDriver] Set implicit wait to 80000ms
+2018-12-27 13:53:23:898 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-12-27 13:53:23:899 - info: [HTTP] <-- POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/timeouts 200 14 ms - 14
+2018-12-27 13:53:23:899 - info: [HTTP] 
+2018-12-27 13:53:23:919 - info: [HTTP] --> POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element
+2018-12-27 13:53:23:919 - info: [HTTP] {"using":"accessibility id","value":"Attributes"}
+2018-12-27 13:53:23:921 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["accessibility id","Attributes","9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b"]
+2018-12-27 13:53:23:922 - info: [debug] [XCUITest] Executing command 'findElement'
+2018-12-27 13:53:23:929 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2018-12-27 13:53:23:932 - info: [debug] [BaseDriver] Waiting up to 80000 ms for condition
+2018-12-27 13:53:23:934 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-12-27 13:53:23:934 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1/element] with body: {"using":"accessibility id","value":"Attributes"}
+2018-12-27 13:53:24:162 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"19000000-0000-0000-A009-000000000000"},"sessionId":"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1","status":0}
+2018-12-27 13:53:24:163 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"19000000-0000-0000-A009-000000000000"}
+2018-12-27 13:53:24:163 - info: [HTTP] <-- POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element 200 245 ms - 88
+2018-12-27 13:53:24:164 - info: [HTTP] 
+2018-12-27 13:53:24:184 - info: [HTTP] --> POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/19000000-0000-0000-A009-000000000000/click
+2018-12-27 13:53:24:184 - info: [HTTP] {"id":"19000000-0000-0000-A009-000000000000"}
+2018-12-27 13:53:24:185 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2018-12-27 13:53:24:186 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2018-12-27 13:53:24:189 - info: [debug] [JSONWP Proxy] Matched '/wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/19000000-0000-0000-A009-000000000000/click' to command name 'click'
+2018-12-27 13:53:24:190 - info: [debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/19000000-0000-0000-A009-000000000000/click] to [POST http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1/element/19000000-0000-0000-A009-000000000000/click] with body: {"id":"19000000-0000-0000-A009-000000000000"}
+2018-12-27 13:53:24:799 - info: [debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"19000000-0000-0000-A009-000000000000","value":"","sessionId":"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1"}
+2018-12-27 13:53:24:799 - info: [JSONWP Proxy] Replacing sessionId 2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1 with 9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b
+2018-12-27 13:53:24:800 - info: [HTTP] <-- POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/19000000-0000-0000-A009-000000000000/click 200 616 ms - 118
+2018-12-27 13:53:24:800 - info: [HTTP] 
+2018-12-27 13:53:24:814 - info: [HTTP] --> POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element
+2018-12-27 13:53:24:815 - info: [HTTP] {"using":"class name","value":"XCUIElementTypeSwitch"}
+2018-12-27 13:53:24:815 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["class name","XCUIElementTypeSwitch","9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b"]
+2018-12-27 13:53:24:815 - info: [debug] [XCUITest] Executing command 'findElement'
+2018-12-27 13:53:24:817 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2018-12-27 13:53:24:817 - info: [debug] [BaseDriver] Waiting up to 80000 ms for condition
+2018-12-27 13:53:24:818 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-12-27 13:53:24:818 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1/element] with body: {"using":"class name","value":"XCUIElementTypeSwitch"}
+2018-12-27 13:53:25:029 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"31000000-0000-0000-A009-000000000000"},"sessionId":"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1","status":0}
+2018-12-27 13:53:25:031 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"31000000-0000-0000-A009-000000000000"}
+2018-12-27 13:53:25:032 - info: [HTTP] <-- POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element 200 219 ms - 88
+2018-12-27 13:53:25:032 - info: [HTTP] 
+2018-12-27 13:53:25:045 - info: [HTTP] --> GET /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/attribute/value
+2018-12-27 13:53:25:046 - info: [HTTP] {}
+2018-12-27 13:53:25:047 - info: [debug] [W3C] Calling AppiumDriver.getAttribute() with args: ["value","31000000-0000-0000-A009-000000000000","9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b"]
+2018-12-27 13:53:25:047 - info: [debug] [XCUITest] Executing command 'getAttribute'
+2018-12-27 13:53:25:050 - info: [debug] [JSONWP Proxy] Matched '/element/31000000-0000-0000-A009-000000000000/attribute/value' to command name 'getAttribute'
+2018-12-27 13:53:25:050 - info: [debug] [JSONWP Proxy] Proxying [GET /element/31000000-0000-0000-A009-000000000000/attribute/value] to [GET http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1/element/31000000-0000-0000-A009-000000000000/attribute/value] with no body
+2018-12-27 13:53:25:186 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"1\",\n  \"sessionId\" : \"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:25:187 - info: [debug] [W3C] Responding to client with driver.getAttribute() result: "1"
+2018-12-27 13:53:25:188 - info: [HTTP] <-- GET /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/attribute/value 200 142 ms - 13
+2018-12-27 13:53:25:190 - info: [HTTP] 
+2018-12-27 13:53:25:205 - info: [HTTP] --> POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/click
+2018-12-27 13:53:25:205 - info: [HTTP] {"id":"31000000-0000-0000-A009-000000000000"}
+2018-12-27 13:53:25:205 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2018-12-27 13:53:25:206 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2018-12-27 13:53:25:210 - info: [debug] [JSONWP Proxy] Matched '/wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/click' to command name 'click'
+2018-12-27 13:53:25:210 - info: [debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/click] to [POST http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1/element/31000000-0000-0000-A009-000000000000/click] with body: {"id":"31000000-0000-0000-A009-000000000000"}
+2018-12-27 13:53:25:419 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:25:419 - info: [HTTP] {}
+2018-12-27 13:53:25:423 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:25:424 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:25:425 - info: [HTTP] <-- GET /wd/hub/status 200 5 ms - 151
+2018-12-27 13:53:25:425 - info: [HTTP] 
+2018-12-27 13:53:25:970 - info: [debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"31000000-0000-0000-A009-000000000000","value":"","sessionId":"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1"}
+2018-12-27 13:53:25:970 - info: [JSONWP Proxy] Replacing sessionId 2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1 with 9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b
+2018-12-27 13:53:25:971 - info: [HTTP] <-- POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/click 200 766 ms - 118
+2018-12-27 13:53:25:972 - info: [HTTP] 
+2018-12-27 13:53:27:432 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:27:433 - info: [HTTP] {}
+2018-12-27 13:53:27:433 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:27:433 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:27:434 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:53:27:434 - info: [HTTP] 
+2018-12-27 13:53:28:987 - info: [HTTP] --> GET /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/attribute/value
+2018-12-27 13:53:28:988 - info: [HTTP] {}
+2018-12-27 13:53:28:989 - info: [debug] [W3C] Calling AppiumDriver.getAttribute() with args: ["value","31000000-0000-0000-A009-000000000000","9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b"]
+2018-12-27 13:53:28:990 - info: [debug] [XCUITest] Executing command 'getAttribute'
+2018-12-27 13:53:29:000 - info: [debug] [JSONWP Proxy] Matched '/element/31000000-0000-0000-A009-000000000000/attribute/value' to command name 'getAttribute'
+2018-12-27 13:53:29:000 - info: [debug] [JSONWP Proxy] Proxying [GET /element/31000000-0000-0000-A009-000000000000/attribute/value] to [GET http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1/element/31000000-0000-0000-A009-000000000000/attribute/value] with no body
+2018-12-27 13:53:29:186 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"0\",\n  \"sessionId\" : \"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:29:187 - info: [debug] [W3C] Responding to client with driver.getAttribute() result: "0"
+2018-12-27 13:53:29:188 - info: [HTTP] <-- GET /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/attribute/value 200 201 ms - 13
+2018-12-27 13:53:29:189 - info: [HTTP] 
+2018-12-27 13:53:29:199 - info: [HTTP] --> POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/click
+2018-12-27 13:53:29:200 - info: [HTTP] {"id":"31000000-0000-0000-A009-000000000000"}
+2018-12-27 13:53:29:200 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2018-12-27 13:53:29:201 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2018-12-27 13:53:29:203 - info: [debug] [JSONWP Proxy] Matched '/wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/click' to command name 'click'
+2018-12-27 13:53:29:203 - info: [debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/click] to [POST http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1/element/31000000-0000-0000-A009-000000000000/click] with body: {"id":"31000000-0000-0000-A009-000000000000"}
+2018-12-27 13:53:29:444 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:29:445 - info: [HTTP] {}
+2018-12-27 13:53:29:445 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:29:445 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:29:446 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:53:29:446 - info: [HTTP] 
+2018-12-27 13:53:29:952 - info: [debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"31000000-0000-0000-A009-000000000000","value":"","sessionId":"2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1"}
+2018-12-27 13:53:29:953 - info: [JSONWP Proxy] Replacing sessionId 2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1 with 9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b
+2018-12-27 13:53:29:953 - info: [HTTP] <-- POST /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b/element/31000000-0000-0000-A009-000000000000/click 200 754 ms - 118
+2018-12-27 13:53:29:953 - info: [HTTP] 
+2018-12-27 13:53:31:454 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:31:455 - info: [HTTP] {}
+2018-12-27 13:53:31:456 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:31:457 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:31:459 - info: [HTTP] <-- GET /wd/hub/status 200 4 ms - 151
+2018-12-27 13:53:31:459 - info: [HTTP] 
+2018-12-27 13:53:32:971 - info: [HTTP] --> DELETE /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b
+2018-12-27 13:53:32:971 - info: [HTTP] {}
+2018-12-27 13:53:32:972 - info: [debug] [W3C] Calling AppiumDriver.deleteSession() with args: ["9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b"]
+2018-12-27 13:53:32:972 - info: [debug] [BaseDriver] Event 'quitSessionRequested' logged at 1545918812972 (19:23:32 GMT+0530 (IST))
+2018-12-27 13:53:32:974 - info: [Appium] Removing session 9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b from our master session list
+2018-12-27 13:53:32:978 - info: [debug] [JSONWP Proxy] Matched '/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b' to command name 'deleteSession'
+2018-12-27 13:53:32:979 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b] to [DELETE http://localhost:8200/session/2AF2BB4D-B7C3-4B6F-8D81-9E70CFF275C1] with no body
+2018-12-27 13:53:33:467 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:33:468 - info: [HTTP] {}
+2018-12-27 13:53:33:468 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:33:469 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:33:469 - info: [HTTP] <-- GET /wd/hub/status 200 3 ms - 151
+2018-12-27 13:53:33:470 - info: [HTTP] 
+2018-12-27 13:53:34:078 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"2DD6735E-748E-4B21-9B6D-E9DB592F65C8\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:34:078 - info: [debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2018-12-27 13:53:34:079 - info: [debug] [iOSLog] Stopping iOS log capture
+2018-12-27 13:53:34:083 - info: [debug] [BaseDriver] Event 'quitSessionFinished' logged at 1545918814083 (19:23:34 GMT+0530 (IST))
+2018-12-27 13:53:34:084 - info: [debug] [W3C] Received response: null
+2018-12-27 13:53:34:084 - info: [debug] [W3C] But deleting session, so not returning
+2018-12-27 13:53:34:084 - info: [debug] [W3C] Responding to client with driver.deleteSession() result: null
+2018-12-27 13:53:34:085 - info: [HTTP] <-- DELETE /wd/hub/session/9cf46277-c75e-40b2-bf8d-7fd95cf6cf7b 200 1114 ms - 14
+2018-12-27 13:53:34:085 - info: [HTTP] 
+2018-12-27 13:53:35:474 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:35:474 - info: [HTTP] {}
+2018-12-27 13:53:35:475 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:35:476 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:35:478 - info: [HTTP] <-- GET /wd/hub/status 200 4 ms - 151
+2018-12-27 13:53:35:479 - info: [HTTP] 
+2018-12-27 13:53:37:486 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:37:486 - info: [HTTP] {}
+2018-12-27 13:53:37:489 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:37:490 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:37:490 - info: [HTTP] <-- GET /wd/hub/status 200 4 ms - 151
+2018-12-27 13:53:37:490 - info: [HTTP] 
+2018-12-27 13:53:39:498 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:39:498 - info: [HTTP] {}
+2018-12-27 13:53:39:498 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:39:498 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:39:499 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:53:39:499 - info: [HTTP] 
+2018-12-27 13:53:41:505 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:41:505 - info: [HTTP] {}
+2018-12-27 13:53:41:506 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:41:506 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:41:506 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:53:41:506 - info: [HTTP] 
+2018-12-27 13:53:43:515 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:43:515 - info: [HTTP] {}
+2018-12-27 13:53:43:518 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:43:518 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:43:519 - info: [HTTP] <-- GET /wd/hub/status 200 3 ms - 151
+2018-12-27 13:53:43:519 - info: [HTTP] 
+2018-12-27 13:53:43:811 - info: [HTTP] --> POST /wd/hub/session
+2018-12-27 13:53:43:812 - info: [HTTP] {"desiredCapabilities":{"app":"/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236","platformVersion":"12.1.3","automationName":"XCUITest","platformName":"ios","udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0","deviceName":"iPhone X","wdaLocalPort":8200},"capabilities":{"firstMatch":[{"platformName":"ios","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236"}]}}
+2018-12-27 13:53:43:812 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236","platformVersion":"12.1.3","automationName":"XCUITest","platformName":"ios","udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0","deviceName":"iPhone X","wdaLocalPort":8200},null,{"firstMatch":[{"platformName":"ios","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236"}]}]
+2018-12-27 13:53:43:813 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1545918823813 (19:23:43 GMT+0530 (IST))
+2018-12-27 13:53:43:814 - warn: [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2018-12-27 13:53:43:815 - info: [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank
+2018-12-27 13:53:43:815 - info: [Appium] Trying to fix W3C capabilities by merging them with JSONWP caps
+2018-12-27 13:53:43:815 - warn: [BaseDriver] The capabilities ["app","platformVersion","automationName","deviceName","wdaLocalPort","udid"] are not standard capabilities and should have an extension prefix
+2018-12-27 13:53:43:816 - info: [Appium] Creating new XCUITestDriver (v2.94.2) session
+2018-12-27 13:53:43:816 - info: [Appium] Capabilities:
+2018-12-27 13:53:43:816 - info: [Appium]   app: /Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app
+2018-12-27 13:53:43:816 - info: [Appium]   platformVersion: 12.1.3
+2018-12-27 13:53:43:817 - info: [Appium]   automationName: XCUITest
+2018-12-27 13:53:43:817 - info: [Appium]   deviceName: iPhone X
+2018-12-27 13:53:43:817 - info: [Appium]   wdaLocalPort: 8200
+2018-12-27 13:53:43:817 - info: [Appium]   platformName: ios
+2018-12-27 13:53:43:817 - info: [Appium]   server:CONFIG_UUID: 2b015d97-abc8-41d2-aadf-7efe09454236
+2018-12-27 13:53:43:817 - info: [Appium]   udid: 571e1c5acf8c4e0d47c6d146186d8749c8fab5b0
+2018-12-27 13:53:43:818 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:app... and MJSONWP desired capabilities {"udid":"571e1c5acf8c4e0d47... were provided
+2018-12-27 13:53:43:819 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:app...
+2018-12-27 13:53:43:825 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: server:CONFIG_UUID.
+2018-12-27 13:53:43:827 - info: [BaseDriver] Session created with session id: 2e074280-11b1-4526-a3ff-da6922577473
+2018-12-27 13:53:43:840 - info: [debug] [XCUITest] Current user: 'rahularora'
+2018-12-27 13:53:44:207 - info: [debug] [XCUITest] Xcode version set to '10.1' (tools v10.1.0.0.1.1539992718)
+2018-12-27 13:53:44:208 - info: [debug] [XCUITest] iOS SDK Version set to '12.1'
+2018-12-27 13:53:44:208 - info: [debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1545918824208 (19:23:44 GMT+0530 (IST))
+2018-12-27 13:53:45:032 - info: [debug] [XCUITest] Available devices: 7ae544323f497983cf0729bc81d5e6128342a125, 571e1c5acf8c4e0d47c6d146186d8749c8fab5b0
+2018-12-27 13:53:45:032 - info: [debug] [XCUITest] Creating iDevice object with udid '571e1c5acf8c4e0d47c6d146186d8749c8fab5b0'
+2018-12-27 13:53:45:033 - info: [XCUITest] Determining device to run tests on: udid: '571e1c5acf8c4e0d47c6d146186d8749c8fab5b0', real device: true
+2018-12-27 13:53:45:037 - info: [BaseDriver] Using local app '/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app'
+2018-12-27 13:53:45:038 - info: [debug] [BaseDriver] Event 'appConfigured' logged at 1545918825038 (19:23:45 GMT+0530 (IST))
+2018-12-27 13:53:45:038 - info: [debug] [XCUITest] Checking whether app '/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app' is actually present on file system
+2018-12-27 13:53:45:039 - info: [debug] [XCUITest] App is present
+2018-12-27 13:53:45:039 - info: [debug] [iOS] Getting bundle ID from app '/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app': 'com.facebook.wda.integrationApp'
+2018-12-27 13:53:45:039 - info: [debug] [BaseDriver] Event 'resetStarted' logged at 1545918825039 (19:23:45 GMT+0530 (IST))
+2018-12-27 13:53:45:039 - info: [debug] [XCUITest] Reset: running ios real device reset flow
+2018-12-27 13:53:45:040 - info: [debug] [BaseDriver] Event 'resetComplete' logged at 1545918825040 (19:23:45 GMT+0530 (IST))
+2018-12-27 13:53:45:041 - info: [debug] [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2018-12-27 13:53:45:042 - info: [debug] [iOSLog] Starting iOS device log capture with: 'idevicesyslog'
+2018-12-27 13:53:45:263 - info: [debug] [XCUITest] Crash reports root '/Users/rahularora/Library/Logs/CrashReporter/MobileDevice/iPhone' does not exist. Got nothing to gather.
+2018-12-27 13:53:45:264 - info: [debug] [BaseDriver] Event 'logCaptureStarted' logged at 1545918825264 (19:23:45 GMT+0530 (IST))
+2018-12-27 13:53:45:265 - info: [XCUITest] Setting up real device
+2018-12-27 13:53:45:265 - info: [debug] [XCUITest] Verifying application platform
+2018-12-27 13:53:45:269 - info: [debug] [XCUITest] CFBundleSupportedPlatforms: ["iPhoneOS"]
+2018-12-27 13:53:45:524 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:45:525 - info: [HTTP] {}
+2018-12-27 13:53:45:526 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:45:527 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:45:529 - info: [HTTP] <-- GET /wd/hub/status 200 4 ms - 151
+2018-12-27 13:53:45:530 - info: [HTTP] 
+2018-12-27 13:53:45:834 - info: [debug] [XCUITest] Reset requested. Removing app with id 'com.facebook.wda.integrationApp' from the device
+2018-12-27 13:53:46:403 - info: [debug] [XCUITest] Installing '/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app' on device with UUID '571e1c5acf8c4e0d47c6d146186d8749c8fab5b0'...
+2018-12-27 13:53:47:539 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:47:542 - info: [HTTP] {}
+2018-12-27 13:53:47:543 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:47:544 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:47:545 - info: [HTTP] <-- GET /wd/hub/status 200 5 ms - 151
+2018-12-27 13:53:47:546 - info: [HTTP] 
+2018-12-27 13:53:47:788 - info: [debug] [XCUITest] The app has been installed successfully.
+2018-12-27 13:53:47:788 - info: [debug] [BaseDriver] Event 'appInstalled' logged at 1545918827788 (19:23:47 GMT+0530 (IST))
+2018-12-27 13:53:47:789 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2018-12-27 13:53:47:789 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2018-12-27 13:53:47:945 - info: [debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 8200 have been found
+2018-12-27 13:53:47:947 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:47:947 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:47:957 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"12.1.3\",\n      \"sdkVersion\" : \"12.0\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"12.1.3\",\n      \"ip\" : \"192.168.1.12\"\n    },\n    \"build\" : {\n      \"upgradedAt\" : \"1545329693015\",\n      \"time\" : \"Dec 20 2018 23:59:49\",\n      \"productBundleIdentifier\" : \"com.facebook.WebDriverAgentRunner\"\n    }\n  },\n  \"sessionId\" : \"2DD6735E-748E-4B21-9B6D-E9DB592F65C8\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:47:958 - info: [debug] [XCUITest] Upgrade timestamp of the currently bundled WDA: 1545329693015
+2018-12-27 13:53:47:959 - info: [debug] [XCUITest] Upgrade timestamp of the WDA on the device: 1545329693015
+2018-12-27 13:53:47:959 - info: [XCUITest] Will reuse previously cached WDA instance at 'http://localhost:8200/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8200 if this is an undesired behavior.
+2018-12-27 13:53:47:963 - info: [debug] [XCUITest] Trying to start WebDriverAgent 1 times with 10000ms interval
+2018-12-27 13:53:47:963 - info: [debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1545918827963 (19:23:47 GMT+0530 (IST))
+2018-12-27 13:53:47:964 - info: [XCUITest] Using provided WebdriverAgent at 'http://localhost:8200/'
+2018-12-27 13:53:47:964 - info: [debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1545918827964 (19:23:47 GMT+0530 (IST))
+2018-12-27 13:53:47:965 - info: [debug] [XCUITest] Sending createSession command to WDA
+2018-12-27 13:53:47:965 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 13:53:47:965 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/status] with no body
+2018-12-27 13:53:47:969 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"12.1.3\",\n      \"sdkVersion\" : \"12.0\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"12.1.3\",\n      \"ip\" : \"192.168.1.12\"\n    },\n    \"build\" : {\n      \"upgradedAt\" : \"1545329693015\",\n      \"time\" : \"Dec 20 2018 23:59:49\",\n      \"productBundleIdentifier\" : \"com.facebook.WebDriverAgentRunner\"\n    }\n  },\n  \"sessionId\" : \"2DD6735E-748E-4B21-9B6D-E9DB592F65C8\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:47:970 - info: [debug] [JSONWP Proxy] Matched '/session' to command name 'createSession'
+2018-12-27 13:53:47:971 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/session] with body: {"desiredCapabilities":{"bundleId":"com.facebook.wda.integrationApp","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+2018-12-27 13:53:49:280 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB","capabilities":{"device":"iphone","browserName":"IntegrationApp","sdkVersion":"12.1.3","CFBundleIdentifier":"com.facebook.wda.integrationApp"}},"sessionId":"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB","status":0}
+2018-12-27 13:53:49:280 - info: [debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1545918829280 (19:23:49 GMT+0530 (IST))
+2018-12-27 13:53:49:281 - info: [debug] [BaseDriver] Event 'wdaStarted' logged at 1545918829281 (19:23:49 GMT+0530 (IST))
+2018-12-27 13:53:49:281 - info: [XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+2018-12-27 13:53:49:281 - info: [debug] [BaseDriver] Event 'orientationSet' logged at 1545918829281 (19:23:49 GMT+0530 (IST))
+2018-12-27 13:53:49:282 - info: [Appium] New XCUITestDriver session created successfully, session 2e074280-11b1-4526-a3ff-da6922577473 added to master session list
+2018-12-27 13:53:49:284 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1545918829284 (19:23:49 GMT+0530 (IST))
+2018-12-27 13:53:49:284 - info: [debug] [W3C] Cached the protocol value 'W3C' for the new session 2e074280-11b1-4526-a3ff-da6922577473
+2018-12-27 13:53:49:284 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236","app":"/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app","platformVersion":"12.1.3","automationName":"XCUITest","deviceName":"iPhone X","wdaLocalPort":8200,"udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0"}}
+2018-12-27 13:53:49:285 - info: [HTTP] <-- POST /wd/hub/session 200 5474 ms - 660
+2018-12-27 13:53:49:285 - info: [HTTP] 
+2018-12-27 13:53:49:359 - info: [HTTP] --> GET /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473
+2018-12-27 13:53:49:360 - info: [HTTP] {}
+2018-12-27 13:53:49:360 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["2e074280-11b1-4526-a3ff-da6922577473"]
+2018-12-27 13:53:49:360 - info: [debug] [XCUITest] Executing command 'getSession'
+2018-12-27 13:53:49:364 - info: [debug] [JSONWP Proxy] Matched '/' to command name 'getSession'
+2018-12-27 13:53:49:364 - info: [debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB] with no body
+2018-12-27 13:53:49:451 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"IntegrationApp\",\n      \"sdkVersion\" : \"12.1.3\",\n      \"CFBundleIdentifier\" : \"com.facebook.wda.integrationApp\"\n    }\n  },\n  \"sessionId\" : \"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:49:453 - info: [debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB/wda/screen] with no body
+2018-12-27 13:53:49:553 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:49:553 - info: [HTTP] {}
+2018-12-27 13:53:49:553 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:49:554 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:49:554 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:53:49:555 - info: [HTTP] 
+2018-12-27 13:53:49:848 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 44\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:49:851 - info: [debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB/window/size] with no body
+2018-12-27 13:53:49:909 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 812\n  },\n  \"sessionId\" : \"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:49:911 - info: [XCUITest] Merging WDA caps over Appium caps for session detail response
+2018-12-27 13:53:49:914 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0","platformName":"ios","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236","app":"/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app","platformVersion":"12.1.3","automationName":"XCUITest","deviceName":"iPhone X","wdaLocalPort":8200,"device":"iphone","browserName":"IntegrationApp","sdkVersion":"12.1.3","CFBundleIdentifier":"com.facebook.wda.integrationApp","pixelRatio":2,"statBarHeight":44,"viewportRect":{"left":0,"top":88,"width":750,"height":1536}}
+2018-12-27 13:53:49:915 - info: [HTTP] <-- GET /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473 200 555 ms - 617
+2018-12-27 13:53:49:915 - info: [HTTP] 
+2018-12-27 13:53:49:934 - info: [HTTP] --> GET /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473
+2018-12-27 13:53:49:934 - info: [HTTP] {}
+2018-12-27 13:53:49:934 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["2e074280-11b1-4526-a3ff-da6922577473"]
+2018-12-27 13:53:49:934 - info: [debug] [XCUITest] Executing command 'getSession'
+2018-12-27 13:53:49:939 - info: [XCUITest] Merging WDA caps over Appium caps for session detail response
+2018-12-27 13:53:49:939 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"udid":"571e1c5acf8c4e0d47c6d146186d8749c8fab5b0","platformName":"ios","server:CONFIG_UUID":"2b015d97-abc8-41d2-aadf-7efe09454236","app":"/Users/rahularora/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphoneos/IntegrationApp.app","platformVersion":"12.1.3","automationName":"XCUITest","deviceName":"iPhone X","wdaLocalPort":8200,"device":"iphone","browserName":"IntegrationApp","sdkVersion":"12.1.3","CFBundleIdentifier":"com.facebook.wda.integrationApp","pixelRatio":2,"statBarHeight":44,"viewportRect":{"left":0,"top":88,"width":750,"height":1536}}
+2018-12-27 13:53:49:940 - info: [HTTP] <-- GET /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473 200 6 ms - 617
+2018-12-27 13:53:49:940 - info: [HTTP] 
+2018-12-27 13:53:49:957 - info: [HTTP] --> POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/timeouts
+2018-12-27 13:53:49:957 - info: [HTTP] {"implicit":80000}
+2018-12-27 13:53:49:957 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,80000,"2e074280-11b1-4526-a3ff-da6922577473"]
+2018-12-27 13:53:49:957 - info: [debug] [XCUITest] Executing command 'timeouts'
+2018-12-27 13:53:49:960 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":80000}}
+2018-12-27 13:53:49:960 - info: [debug] [BaseDriver] Set implicit wait to 80000ms
+2018-12-27 13:53:49:962 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-12-27 13:53:49:963 - info: [HTTP] <-- POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/timeouts 200 6 ms - 14
+2018-12-27 13:53:49:964 - info: [HTTP] 
+2018-12-27 13:53:50:007 - info: [HTTP] --> POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element
+2018-12-27 13:53:50:007 - info: [HTTP] {"using":"accessibility id","value":"Attributes"}
+2018-12-27 13:53:50:008 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["accessibility id","Attributes","2e074280-11b1-4526-a3ff-da6922577473"]
+2018-12-27 13:53:50:008 - info: [debug] [XCUITest] Executing command 'findElement'
+2018-12-27 13:53:50:011 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2018-12-27 13:53:50:012 - info: [debug] [BaseDriver] Waiting up to 80000 ms for condition
+2018-12-27 13:53:50:013 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-12-27 13:53:50:014 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB/element] with body: {"using":"accessibility id","value":"Attributes"}
+2018-12-27 13:53:50:251 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"19000000-0000-0000-A109-000000000000"},"sessionId":"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB","status":0}
+2018-12-27 13:53:50:252 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"19000000-0000-0000-A109-000000000000"}
+2018-12-27 13:53:50:252 - info: [HTTP] <-- POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element 200 245 ms - 88
+2018-12-27 13:53:50:252 - info: [HTTP] 
+2018-12-27 13:53:50:270 - info: [HTTP] --> POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/19000000-0000-0000-A109-000000000000/click
+2018-12-27 13:53:50:270 - info: [HTTP] {"id":"19000000-0000-0000-A109-000000000000"}
+2018-12-27 13:53:50:271 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2018-12-27 13:53:50:272 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2018-12-27 13:53:50:273 - info: [debug] [JSONWP Proxy] Matched '/wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/19000000-0000-0000-A109-000000000000/click' to command name 'click'
+2018-12-27 13:53:50:274 - info: [debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/19000000-0000-0000-A109-000000000000/click] to [POST http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB/element/19000000-0000-0000-A109-000000000000/click] with body: {"id":"19000000-0000-0000-A109-000000000000"}
+2018-12-27 13:53:50:898 - info: [debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"19000000-0000-0000-A109-000000000000","value":"","sessionId":"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB"}
+2018-12-27 13:53:50:899 - info: [JSONWP Proxy] Replacing sessionId 6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB with 2e074280-11b1-4526-a3ff-da6922577473
+2018-12-27 13:53:50:899 - info: [HTTP] <-- POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/19000000-0000-0000-A109-000000000000/click 200 629 ms - 118
+2018-12-27 13:53:50:900 - info: [HTTP] 
+2018-12-27 13:53:50:910 - info: [HTTP] --> POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element
+2018-12-27 13:53:50:911 - info: [HTTP] {"using":"class name","value":"XCUIElementTypeSwitch"}
+2018-12-27 13:53:50:912 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["class name","XCUIElementTypeSwitch","2e074280-11b1-4526-a3ff-da6922577473"]
+2018-12-27 13:53:50:912 - info: [debug] [XCUITest] Executing command 'findElement'
+2018-12-27 13:53:50:915 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2018-12-27 13:53:50:915 - info: [debug] [BaseDriver] Waiting up to 80000 ms for condition
+2018-12-27 13:53:50:916 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-12-27 13:53:50:916 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB/element] with body: {"using":"class name","value":"XCUIElementTypeSwitch"}
+2018-12-27 13:53:51:134 - info: [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"31000000-0000-0000-A109-000000000000"},"sessionId":"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB","status":0}
+2018-12-27 13:53:51:134 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"31000000-0000-0000-A109-000000000000"}
+2018-12-27 13:53:51:135 - info: [HTTP] <-- POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element 200 225 ms - 88
+2018-12-27 13:53:51:135 - info: [HTTP] 
+2018-12-27 13:53:51:141 - info: [HTTP] --> GET /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/attribute/value
+2018-12-27 13:53:51:141 - info: [HTTP] {}
+2018-12-27 13:53:51:142 - info: [debug] [W3C] Calling AppiumDriver.getAttribute() with args: ["value","31000000-0000-0000-A109-000000000000","2e074280-11b1-4526-a3ff-da6922577473"]
+2018-12-27 13:53:51:142 - info: [debug] [XCUITest] Executing command 'getAttribute'
+2018-12-27 13:53:51:149 - info: [debug] [JSONWP Proxy] Matched '/element/31000000-0000-0000-A109-000000000000/attribute/value' to command name 'getAttribute'
+2018-12-27 13:53:51:150 - info: [debug] [JSONWP Proxy] Proxying [GET /element/31000000-0000-0000-A109-000000000000/attribute/value] to [GET http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB/element/31000000-0000-0000-A109-000000000000/attribute/value] with no body
+2018-12-27 13:53:51:271 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"1\",\n  \"sessionId\" : \"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:51:272 - info: [debug] [W3C] Responding to client with driver.getAttribute() result: "1"
+2018-12-27 13:53:51:272 - info: [HTTP] <-- GET /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/attribute/value 200 131 ms - 13
+2018-12-27 13:53:51:272 - info: [HTTP] 
+2018-12-27 13:53:51:282 - info: [HTTP] --> POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/click
+2018-12-27 13:53:51:283 - info: [HTTP] {"id":"31000000-0000-0000-A109-000000000000"}
+2018-12-27 13:53:51:283 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2018-12-27 13:53:51:283 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2018-12-27 13:53:51:285 - info: [debug] [JSONWP Proxy] Matched '/wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/click' to command name 'click'
+2018-12-27 13:53:51:285 - info: [debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/click] to [POST http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB/element/31000000-0000-0000-A109-000000000000/click] with body: {"id":"31000000-0000-0000-A109-000000000000"}
+2018-12-27 13:53:51:564 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:51:564 - info: [HTTP] {}
+2018-12-27 13:53:51:565 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:51:565 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:51:566 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:53:51:566 - info: [HTTP] 
+2018-12-27 13:53:51:859 - info: [debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"31000000-0000-0000-A109-000000000000","value":"","sessionId":"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB"}
+2018-12-27 13:53:51:860 - info: [JSONWP Proxy] Replacing sessionId 6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB with 2e074280-11b1-4526-a3ff-da6922577473
+2018-12-27 13:53:51:861 - info: [HTTP] <-- POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/click 200 578 ms - 118
+2018-12-27 13:53:51:861 - info: [HTTP] 
+2018-12-27 13:53:53:572 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:53:572 - info: [HTTP] {}
+2018-12-27 13:53:53:573 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:53:573 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:53:573 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:53:53:574 - info: [HTTP] 
+2018-12-27 13:53:54:875 - info: [HTTP] --> GET /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/attribute/value
+2018-12-27 13:53:54:875 - info: [HTTP] {}
+2018-12-27 13:53:54:876 - info: [debug] [W3C] Calling AppiumDriver.getAttribute() with args: ["value","31000000-0000-0000-A109-000000000000","2e074280-11b1-4526-a3ff-da6922577473"]
+2018-12-27 13:53:54:877 - info: [debug] [XCUITest] Executing command 'getAttribute'
+2018-12-27 13:53:54:883 - info: [debug] [JSONWP Proxy] Matched '/element/31000000-0000-0000-A109-000000000000/attribute/value' to command name 'getAttribute'
+2018-12-27 13:53:54:884 - info: [debug] [JSONWP Proxy] Proxying [GET /element/31000000-0000-0000-A109-000000000000/attribute/value] to [GET http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB/element/31000000-0000-0000-A109-000000000000/attribute/value] with no body
+2018-12-27 13:53:55:052 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"0\",\n  \"sessionId\" : \"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:55:052 - info: [debug] [W3C] Responding to client with driver.getAttribute() result: "0"
+2018-12-27 13:53:55:053 - info: [HTTP] <-- GET /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/attribute/value 200 178 ms - 13
+2018-12-27 13:53:55:053 - info: [HTTP] 
+2018-12-27 13:53:55:067 - info: [HTTP] --> POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/click
+2018-12-27 13:53:55:067 - info: [HTTP] {"id":"31000000-0000-0000-A109-000000000000"}
+2018-12-27 13:53:55:068 - info: [W3C] Driver proxy active, passing request on via HTTP proxy
+2018-12-27 13:53:55:068 - info: [debug] [XCUITest] Executing command 'proxyReqRes'
+2018-12-27 13:53:55:070 - info: [debug] [JSONWP Proxy] Matched '/wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/click' to command name 'click'
+2018-12-27 13:53:55:071 - info: [debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/click] to [POST http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB/element/31000000-0000-0000-A109-000000000000/click] with body: {"id":"31000000-0000-0000-A109-000000000000"}
+2018-12-27 13:53:55:577 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:55:577 - info: [HTTP] {}
+2018-12-27 13:53:55:578 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:55:579 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:55:580 - info: [HTTP] <-- GET /wd/hub/status 200 3 ms - 151
+2018-12-27 13:53:55:580 - info: [HTTP] 
+2018-12-27 13:53:55:720 - info: [debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"31000000-0000-0000-A109-000000000000","value":"","sessionId":"6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB"}
+2018-12-27 13:53:55:720 - info: [JSONWP Proxy] Replacing sessionId 6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB with 2e074280-11b1-4526-a3ff-da6922577473
+2018-12-27 13:53:55:721 - info: [HTTP] <-- POST /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473/element/31000000-0000-0000-A109-000000000000/click 200 653 ms - 118
+2018-12-27 13:53:55:721 - info: [HTTP] 
+2018-12-27 13:53:57:587 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:57:587 - info: [HTTP] {}
+2018-12-27 13:53:57:587 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:57:587 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:57:588 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:53:57:588 - info: [HTTP] 
+2018-12-27 13:53:58:738 - info: [HTTP] --> DELETE /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473
+2018-12-27 13:53:58:738 - info: [HTTP] {}
+2018-12-27 13:53:58:738 - info: [debug] [W3C] Calling AppiumDriver.deleteSession() with args: ["2e074280-11b1-4526-a3ff-da6922577473"]
+2018-12-27 13:53:58:738 - info: [debug] [BaseDriver] Event 'quitSessionRequested' logged at 1545918838738 (19:23:58 GMT+0530 (IST))
+2018-12-27 13:53:58:739 - info: [Appium] Removing session 2e074280-11b1-4526-a3ff-da6922577473 from our master session list
+2018-12-27 13:53:58:739 - info: [debug] [JSONWP Proxy] Matched '/session/2e074280-11b1-4526-a3ff-da6922577473' to command name 'deleteSession'
+2018-12-27 13:53:58:739 - info: [debug] [JSONWP Proxy] Proxying [DELETE /session/2e074280-11b1-4526-a3ff-da6922577473] to [DELETE http://localhost:8200/session/6B6636D9-FD7C-42A7-B9AA-F2B2F61026CB] with no body
+2018-12-27 13:53:59:591 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:53:59:592 - info: [HTTP] {}
+2018-12-27 13:53:59:594 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:53:59:594 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:53:59:595 - info: [HTTP] <-- GET /wd/hub/status 200 3 ms - 151
+2018-12-27 13:53:59:595 - info: [HTTP] 
+2018-12-27 13:53:59:790 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"9A00DE24-D3BF-4C09-82E8-7D24A99A0D77\",\n  \"status\" : 0\n}"
+2018-12-27 13:53:59:790 - info: [debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2018-12-27 13:53:59:791 - info: [debug] [iOSLog] Stopping iOS log capture
+2018-12-27 13:53:59:794 - info: [debug] [BaseDriver] Event 'quitSessionFinished' logged at 1545918839794 (19:23:59 GMT+0530 (IST))
+2018-12-27 13:53:59:795 - info: [debug] [W3C] Received response: null
+2018-12-27 13:53:59:795 - info: [debug] [W3C] But deleting session, so not returning
+2018-12-27 13:53:59:795 - info: [debug] [W3C] Responding to client with driver.deleteSession() result: null
+2018-12-27 13:53:59:797 - info: [HTTP] <-- DELETE /wd/hub/session/2e074280-11b1-4526-a3ff-da6922577473 200 1058 ms - 14
+2018-12-27 13:53:59:797 - info: [HTTP] 
+2018-12-27 13:54:01:599 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:01:599 - info: [HTTP] {}
+2018-12-27 13:54:01:599 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:01:600 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:01:600 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:54:01:600 - info: [HTTP] 
+2018-12-27 13:54:03:609 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:03:609 - info: [HTTP] {}
+2018-12-27 13:54:03:610 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:03:610 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:03:612 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:54:03:613 - info: [HTTP] 
+2018-12-27 13:54:05:625 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:05:625 - info: [HTTP] {}
+2018-12-27 13:54:05:625 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:05:626 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:05:626 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:54:05:626 - info: [HTTP] 
+2018-12-27 13:54:07:634 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:07:634 - info: [HTTP] {}
+2018-12-27 13:54:07:635 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:07:635 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:07:636 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:54:07:636 - info: [HTTP] 
+2018-12-27 13:54:09:641 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:09:641 - info: [HTTP] {}
+2018-12-27 13:54:09:641 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:09:641 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:09:642 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:54:09:642 - info: [HTTP] 
+2018-12-27 13:54:11:654 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:11:654 - info: [HTTP] {}
+2018-12-27 13:54:11:655 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:11:655 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:11:656 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:54:11:656 - info: [HTTP] 
+2018-12-27 13:54:13:663 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:13:663 - info: [HTTP] {}
+2018-12-27 13:54:13:663 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:13:664 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:13:664 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:54:13:664 - info: [HTTP] 
+2018-12-27 13:54:15:671 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:15:672 - info: [HTTP] {}
+2018-12-27 13:54:15:672 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:15:672 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:15:673 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:54:15:673 - info: [HTTP] 
+2018-12-27 13:54:17:677 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:17:677 - info: [HTTP] {}
+2018-12-27 13:54:17:677 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:17:678 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:17:678 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:54:17:678 - info: [HTTP] 
+2018-12-27 13:54:19:689 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:19:689 - info: [HTTP] {}
+2018-12-27 13:54:19:689 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:19:690 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:19:690 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:54:19:690 - info: [HTTP] 
+2018-12-27 13:54:21:700 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:21:700 - info: [HTTP] {}
+2018-12-27 13:54:21:701 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:21:702 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:21:703 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:54:21:703 - info: [HTTP] 
+2018-12-27 13:54:23:707 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:23:707 - info: [HTTP] {}
+2018-12-27 13:54:23:707 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:23:708 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:23:709 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:54:23:709 - info: [HTTP] 
+2018-12-27 13:54:25:720 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:25:721 - info: [HTTP] {}
+2018-12-27 13:54:25:721 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:25:722 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:25:723 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:54:25:723 - info: [HTTP] 
+2018-12-27 13:54:27:730 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:27:730 - info: [HTTP] {}
+2018-12-27 13:54:27:730 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:27:731 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:27:731 - info: [HTTP] <-- GET /wd/hub/status 200 1 ms - 151
+2018-12-27 13:54:27:731 - info: [HTTP] 
+2018-12-27 13:54:29:738 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:29:739 - info: [HTTP] {}
+2018-12-27 13:54:29:739 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:29:740 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:29:741 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:54:29:741 - info: [HTTP] 
+2018-12-27 13:54:29:793 - info: [debug] [XCUITest] Connection to WDA timed out
+2018-12-27 13:54:29:794 - info: [debug] [iProxy] recv failed: Operation not permitted
+2018-12-27 13:54:31:747 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 13:54:31:747 - info: [HTTP] {}
+2018-12-27 13:54:31:748 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 13:54:31:748 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 13:54:31:749 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-12-27 13:54:31:749 - info: [HTTP] 
+2018-12-27 13:54:32:525 - info: [Appium] Received SIGINT - shutting down

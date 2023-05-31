@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Real Device Test">
+  <parameter name="deviceName" value="vivo"/>
+ 
+    <classes>
+ 
+      <class name="testcases.TestParallel"/>
+
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test thread-count="5" name="Emulator Test">
+  <parameter name="deviceName" value="emulator"/>
+ 
+    <classes>
+ 
+      <class name="testcases.TestParallel"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

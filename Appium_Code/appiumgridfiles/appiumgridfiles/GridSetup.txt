@@ -1,0 +1,18 @@
+1st Way with Grid:
+
+Start Hub:
+java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+Device 1:
+appium -p 4567 --udid 571e1c5acf8c4e0d47c6d146186d8749c8fab5b0 --webdriveragent-port 8200 --tmp /tmp/iphoneX --nodeconfig "/Users/rahularora/Desktop/appiumgridfiles/device1.json" -g "/Users/rahularora/Desktop/appiumgridfiles/appium_1.log" --session-override
+
+Device 2:
+appium -p 4568 --udid 7ae544323f497983cf0729bc81d5e6128342a125 --tmp /tmp/iphone7plus -bp 5557 --webdriveragent-port 8201 --nodeconfig "/Users/rahularora/Desktop/appiumgridfiles/device2.json" -g "/Users/rahularora/Desktop/appiumgridfiles/appium_2.log" --session-override
+
+
+
+2nd Way:
+
+appium -p 10000 --default-capabilities '{"systemPort": 8200, "udid": "571e1c5acf8c4e0d47c6d146186d8749c8fab5b0"}'
+
+appium -p 10001 --default-capabilities '{"systemPort": 8201, "udid": "7ae544323f497983cf0729bc81d5e6128342a125"}'

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29148" started-at="2022-06-13T12:09:32Z" finished-at="2022-06-13T12:10:01Z">
+    <groups>
+    </groups>
+    <test name="Real Device Test" duration-ms="17655" started-at="2022-06-13T12:09:32Z" finished-at="2022-06-13T12:09:50Z">
+      <class name="testcases.TestParallel">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TestParallel@72d818d1]" name="launchBrowser" duration-ms="17611" started-at="2022-06-13T12:09:32Z" finished-at="2022-06-13T12:09:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vivo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- testcases.TestParallel -->
+    </test> <!-- Real Device Test -->
+    <test name="Emulator Test" duration-ms="29148" started-at="2022-06-13T12:09:32Z" finished-at="2022-06-13T12:10:01Z">
+      <class name="testcases.TestParallel">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TestParallel@a67c67e]" name="launchBrowser" duration-ms="29108" started-at="2022-06-13T12:09:32Z" finished-at="2022-06-13T12:10:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- testcases.TestParallel -->
+    </test> <!-- Emulator Test -->
+  </suite> <!-- Suite -->
+</testng-results>

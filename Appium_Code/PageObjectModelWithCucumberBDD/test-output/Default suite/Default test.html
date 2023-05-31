@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 15 18:03:35 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>51 seconds (51282 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.RunCuke.runScenario()'><b>runScenario</b><br>Test class: runner.RunCuke<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Searching Villas", "Goibibo Search Villas Feature"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;192.168.1.3&apos;, ip: &apos;fe80:0:0:0:c81:d196:7ed5:2dee%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [fa1f5287-45c7-4fc7-8ad3-63d85761ae13, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(&quot;Village Life Maldives&quot;).instance(0))}]
+Capabilities {appium:appActivity: .common.HomeActivity, appium:appPackage: com.goibibo, appium:databaseEnabled: false, appium:desired: {appActivity: .common.HomeActivity, appPackage: com.goibibo, deviceName: android, noReset: true, platformName: android, platformVersion: 11}, appium:deviceApiLevel: 30, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1818, appium:deviceName: 8e006adb, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 8e006adb, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2130, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: fa1f5287-45c7-4fc7-8ad3-63d85761ae13
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
+	at utilities.ScrollUtil.scrollToTextByAndroidUIAutomator(ScrollUtil.java:54)
+	at screens.VillasScreen.scrollToHotelApartment(VillasScreen.java:53)
+	at steps.GoIbiboSteps.i_scroll_till_baity_hotel_apartments(GoIbiboSteps.java:66)
+	at ✽.I scroll till &quot;Village Life Maldives&quot;(file:///Users/rahularora/seleniumworkspace/BatchDiagnal/PageObjectModelWithCucumberBDD/src/test/resources/features/SearchVillas.feature:11)
+</pre></div><a href='#' onClick='toggleBox("stack-trace485237151", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace485237151'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;192.168.1.3&apos;, ip: &apos;fe80:0:0:0:c81:d196:7ed5:2dee%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [fa1f5287-45c7-4fc7-8ad3-63d85761ae13, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(&quot;Village Life Maldives&quot;).instance(0))}]
+Capabilities {appium:appActivity: .common.HomeActivity, appium:appPackage: com.goibibo, appium:databaseEnabled: false, appium:desired: {appActivity: .common.HomeActivity, appPackage: com.goibibo, deviceName: android, noReset: true, platformName: android, platformVersion: 11}, appium:deviceApiLevel: 30, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1818, appium:deviceName: 8e006adb, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 8e006adb, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2130, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: fa1f5287-45c7-4fc7-8ad3-63d85761ae13
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
+	at utilities.ScrollUtil.scrollToTextByAndroidUIAutomator(ScrollUtil.java:54)
+	at screens.VillasScreen.scrollToHotelApartment(VillasScreen.java:53)
+	at steps.GoIbiboSteps.i_scroll_till_baity_hotel_apartments(GoIbiboSteps.java:66)
+	at ✽.I scroll till &quot;Village Life Maldives&quot;(file:///Users/rahularora/seleniumworkspace/BatchDiagnal/PageObjectModelWithCucumberBDD/src/test/resources/features/SearchVillas.feature:11)
+</pre></div></td>
+<td>50</td>
+<td>runner.RunCuke@17baae6e</td></tr>
+<tr>
+<td title='runner.RunCuke.runScenario()'><b>runScenario</b><br>Test class: runner.RunCuke<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Searching Villas", "Goibibo Search Villas Feature"</td>
+<td><div><pre>java.lang.ClassCastException: org.openqa.selenium.Platform$22 cannot be cast to java.lang.String
+	at io.appium.java_client.AppiumDriver.ensurePlatformName(AppiumDriver.java:136)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:116)
+	at utilities.CommonUtils.getAndroidDriver(CommonUtils.java:98)
+	at base.BaseSteps.setUp(BaseSteps.java:30)
+	at steps.Hooks.beforeHook(Hooks.java:14)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1018742990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1018742990'><pre>java.lang.ClassCastException: org.openqa.selenium.Platform$22 cannot be cast to java.lang.String
+	at io.appium.java_client.AppiumDriver.ensurePlatformName(AppiumDriver.java:136)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:116)
+	at utilities.CommonUtils.getAndroidDriver(CommonUtils.java:98)
+	at base.BaseSteps.setUp(BaseSteps.java:30)
+	at steps.Hooks.beforeHook(Hooks.java:14)
+</pre></div></td>
+<td>0</td>
+<td>runner.RunCuke@17baae6e</td></tr>
+</table><p>
+</body>
+</html>

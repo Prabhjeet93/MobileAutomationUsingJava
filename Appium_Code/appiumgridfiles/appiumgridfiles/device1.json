@@ -1,0 +1,33 @@
+{
+  "capabilities":
+      [
+	 
+		{
+          "browserName":"iPhone X",
+	"version":"12.1.3",
+	"maxInstances": 1,
+	"platform":"MAC",
+	"platformName":"iOS",
+	"deviceName":"iPhone X"
+        }
+      ],
+   "configuration":
+  {
+        "cleanUpCycle": 5000,
+        "registerCycle": 5000,
+        "nodeTimeout": 120,
+        "timeout": 600000,
+        "nodePolling": 2000,
+        "hub": "http://localhost:4444/grid/register",
+                          "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+                          "maxSession": 10,
+                           "port": 5555,
+                            "host": "localhost",
+                            "register": true,
+                           "hubPort": 4444,
+                            "hubHost" :"localhost",
+           "role": "node"
+  }
+  
+ 
+}

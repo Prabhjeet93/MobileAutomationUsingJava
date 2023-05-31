@@ -1,0 +1,1336 @@
+2018-12-27 19:43:43:871 - info: [Appium] Welcome to Appium v1.9.1
+2018-12-27 19:43:43:873 - info: [Appium] Non-default server args:
+2018-12-27 19:43:43:874 - info: [Appium]   port: 4726
+2018-12-27 19:43:43:875 - info: [Appium]   bootstrapPort: 5556
+2018-12-27 19:43:43:875 - info: [Appium]   sessionOverride: true
+2018-12-27 19:43:43:876 - info: [Appium]   log: C:\Users\WAY2AUTOMATION\Desktop\appiumgrid\appium_2.log
+2018-12-27 19:43:43:876 - info: [Appium]   nodeconfig: C:\Users\WAY2AUTOMATION\Desktop\appiumgrid\all.json
+2018-12-27 19:43:43:877 - info: [Appium]   chromeDriverPort: 5645
+2018-12-27 19:43:43:877 - info: [Appium]   udid: 3204d84f4c9c71dd
+2018-12-27 19:43:43:878 - warn: [Appium] Deprecated server args:
+2018-12-27 19:43:43:880 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"3204d84f4c9c71dd"}'
+2018-12-27 19:43:43:881 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-12-27 19:43:43:882 - info: [Appium]   udid: 3204d84f4c9c71dd
+2018-12-27 19:43:43:961 - info: [debug] [Appium] Starting auto register thread for grid. Will try to register every 5000 ms.
+2018-12-27 19:43:43:963 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4726
+2018-12-27 19:43:49:194 - info: [debug] [Appium] Appium successfully registered with the grid on http://localhost:4444
+2018-12-27 19:43:49:727 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:43:49:727 - info: [HTTP] {}
+2018-12-27 19:43:49:733 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:43:49:737 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:43:49:748 - info: [HTTP] <-- GET /wd/hub/status 200 16 ms - 151
+2018-12-27 19:43:49:752 - info: [HTTP] 
+2018-12-27 19:43:51:232 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:43:51:233 - info: [HTTP] {}
+2018-12-27 19:43:51:235 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:43:51:237 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:43:51:239 - info: [HTTP] <-- GET /wd/hub/status 200 6 ms - 151
+2018-12-27 19:43:51:241 - info: [HTTP] 
+2018-12-27 19:43:53:248 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:43:53:250 - info: [HTTP] {}
+2018-12-27 19:43:53:256 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:43:53:262 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:43:53:269 - info: [HTTP] <-- GET /wd/hub/status 200 18 ms - 151
+2018-12-27 19:43:53:282 - info: [HTTP] 
+2018-12-27 19:43:55:281 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:43:55:284 - info: [HTTP] {}
+2018-12-27 19:43:55:287 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:43:55:298 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:43:55:311 - info: [HTTP] <-- GET /wd/hub/status 200 25 ms - 151
+2018-12-27 19:43:55:312 - info: [HTTP] 
+2018-12-27 19:43:57:309 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:43:57:311 - info: [HTTP] {}
+2018-12-27 19:43:57:311 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:43:57:329 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:43:57:334 - info: [HTTP] <-- GET /wd/hub/status 200 22 ms - 151
+2018-12-27 19:43:57:337 - info: [HTTP] 
+2018-12-27 19:43:59:338 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:43:59:344 - info: [HTTP] {}
+2018-12-27 19:43:59:345 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:43:59:348 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:43:59:354 - info: [HTTP] <-- GET /wd/hub/status 200 14 ms - 151
+2018-12-27 19:43:59:355 - info: [HTTP] 
+2018-12-27 19:44:01:350 - info: [HTTP] --> POST /wd/hub/session
+2018-12-27 19:44:01:365 - info: [HTTP] {"desiredCapabilities":{"app":"F:\\appiumworkspaces\\AppiumNewSeries\\AppiumGrid\\.\\app\\selendroid-test-app-0.17.0.apk","server:CONFIG_UUID":"21bad0e7-24b9-44da-9bf3-0bb078d0925b","platformVersion":"8.0","platformName":"android","udid":"192.168.1.5:5555","deviceName":"192.168.1.5:5555"},"capabilities":{"firstMatch":[{"platformName":"android","server:CONFIG_UUID":"21bad0e7-24b9-44da-9bf3-0bb078d0925b"}]}}
+2018-12-27 19:44:01:379 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"F:\\appiumworkspaces\\AppiumNewSeries\\AppiumGrid\\.\\app\\selendroid-test-app-0.17.0.apk","server:CONFIG_UUID":"21bad0e7-24b9-44da-9bf3-0bb078d0925b","platformVersion":"8.0","platformName":"android","udid":"192.168.1.5:5555","deviceName":"192.168.1.5:5555"},null,{"firstMatch":[{"platformName":"android","server:CONFIG_UUID":"21bad0e7-24b9-44da-9bf3-0bb078d0925b"}]}]
+2018-12-27 19:44:01:390 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1545939841380 (01:14:01 GMT+0530 (India Standard Time))
+2018-12-27 19:44:01:411 - warn: [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2018-12-27 19:44:01:430 - info: [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank
+2018-12-27 19:44:01:459 - info: [Appium] Trying to fix W3C capabilities by merging them with JSONWP caps
+2018-12-27 19:44:01:479 - warn: [BaseDriver] The capabilities ["app","platformVersion","deviceName","udid"] are not standard capabilities and should have an extension prefix
+2018-12-27 19:44:01:498 - warn: [Appium] Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-12-27 19:44:01:513 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-12-27 19:44:01:527 - info: [Appium] Capabilities:
+2018-12-27 19:44:01:535 - info: [Appium]   app: F:\appiumworkspaces\AppiumNewSeries\AppiumGrid\.\app\selendroid-test-app-0.17.0.apk
+2018-12-27 19:44:01:541 - info: [Appium]   platformVersion: 8.0
+2018-12-27 19:44:01:559 - info: [Appium]   deviceName: 192.168.1.5:5555
+2018-12-27 19:44:01:562 - info: [Appium]   platformName: android
+2018-12-27 19:44:01:578 - info: [Appium]   server:CONFIG_UUID: 21bad0e7-24b9-44da-9bf3-0bb078d0925b
+2018-12-27 19:44:01:595 - info: [Appium]   udid: 3204d84f4c9c71dd
+2018-12-27 19:44:01:619 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:app... and MJSONWP desired capabilities {"udid":"192.168.1.5:5555",... were provided
+2018-12-27 19:44:01:635 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:app...
+2018-12-27 19:44:01:677 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: server:CONFIG_UUID.
+2018-12-27 19:44:01:682 - info: [BaseDriver] Session created with session id: eda96fa2-c5c1-498c-b83a-b419838bb86d
+2018-12-27 19:44:01:865 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:01:870 - info: [HTTP] {}
+2018-12-27 19:44:01:878 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:01:880 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:01:894 - info: [HTTP] <-- GET /wd/hub/status 200 19 ms - 151
+2018-12-27 19:44:01:905 - info: [HTTP] 
+2018-12-27 19:44:01:915 - info: [AndroidDriver] Java version is: 1.8.0_171
+2018-12-27 19:44:01:923 - info: [ADB] Checking whether adb is present
+2018-12-27 19:44:01:958 - info: [ADB] Found 2 'build-tools' folders under 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk' (newest first):
+2018-12-27 19:44:01:976 - info: [ADB]     C:/Users/WAY2AUTOMATION/AppData/Local/Android/Sdk/build-tools/28.0.3
+2018-12-27 19:44:01:994 - info: [ADB]     C:/Users/WAY2AUTOMATION/AppData/Local/Android/Sdk/build-tools/27.0.3
+2018-12-27 19:44:02:011 - info: [ADB] Using adb.exe from C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe
+2018-12-27 19:44:02:029 - info: [AndroidDriver] Retrieving device list
+2018-12-27 19:44:02:044 - info: [debug] [ADB] Trying to find a connected android device
+2018-12-27 19:44:02:049 - info: [debug] [ADB] Getting connected devices...
+2018-12-27 19:44:02:200 - info: [debug] [ADB] 2 device(s) connected
+2018-12-27 19:44:02:205 - info: [AndroidDriver] Using device: 3204d84f4c9c71dd
+2018-12-27 19:44:02:208 - info: [debug] [ADB] Setting device id to 3204d84f4c9c71dd
+2018-12-27 19:44:02:213 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell getprop ro.build.version.sdk'
+2018-12-27 19:44:02:298 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 21
+2018-12-27 19:44:02:303 - info: [debug] [ADB] Device API level: 21
+2018-12-27 19:44:02:321 - info: [BaseDriver] Using local app 'F:\appiumworkspaces\AppiumNewSeries\AppiumGrid\.\app\selendroid-test-app-0.17.0.apk'
+2018-12-27 19:44:02:336 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-12-27 19:44:02:341 - info: [AndroidDriver] Starting Android session
+2018-12-27 19:44:02:351 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd wait-for-device'
+2018-12-27 19:44:02:411 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell echo ping'
+2018-12-27 19:44:02:479 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-12-27 19:44:02:483 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-12-27 19:44:02:500 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell pm list packages io.appium.settings'
+2018-12-27 19:44:03:133 - info: [debug] [ADB] App is installed
+2018-12-27 19:44:03:139 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-12-27 19:44:03:143 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell dumpsys package io.appium.settings'
+2018-12-27 19:44:03:288 - info: [ADB] Checking whether aapt is present
+2018-12-27 19:44:03:294 - info: [ADB] Using aapt.exe from C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\build-tools\28.0.3\aapt.exe
+2018-12-27 19:44:03:331 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-12-27 19:44:03:338 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell ps'
+2018-12-27 19:44:03:567 - info: [debug] [ADB] Device API level: 21
+2018-12-27 19:44:03:573 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-12-27 19:44:03:889 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:03:895 - info: [HTTP] {}
+2018-12-27 19:44:03:897 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:03:912 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:03:916 - info: [HTTP] <-- GET /wd/hub/status 200 27 ms - 151
+2018-12-27 19:44:03:917 - info: [HTTP] 
+2018-12-27 19:44:05:095 - info: [debug] [ADB] Device API level: 21
+2018-12-27 19:44:05:096 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell settings put secure mock_location 1'
+2018-12-27 19:44:05:765 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-12-27 19:44:05:771 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-12-27 19:44:05:776 - info: [debug] [Logcat] Starting logcat capture
+2018-12-27 19:44:05:870 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-12-27 19:44:05:877 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-12-27 19:44:05:883 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell pm list packages io.appium.unlock'
+2018-12-27 19:44:05:924 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:05:928 - info: [HTTP] {}
+2018-12-27 19:44:05:935 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:05:937 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:05:943 - info: [HTTP] <-- GET /wd/hub/status 200 18 ms - 151
+2018-12-27 19:44:05:948 - info: [HTTP] 
+2018-12-27 19:44:06:709 - info: [debug] [ADB] App is installed
+2018-12-27 19:44:06:721 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-12-27 19:44:06:730 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell dumpsys package io.appium.unlock'
+2018-12-27 19:44:06:892 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-12-27 19:44:06:898 - info: [ADB] Getting device platform version
+2018-12-27 19:44:06:900 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell getprop ro.build.version.release'
+2018-12-27 19:44:06:982 - info: [debug] [ADB] Current device property 'ro.build.version.release': 5.0.2
+2018-12-27 19:44:06:989 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell wm size'
+2018-12-27 19:44:07:628 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell getprop ro.product.model'
+2018-12-27 19:44:07:706 - info: [debug] [ADB] Current device property 'ro.product.model': SM-T805
+2018-12-27 19:44:07:712 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell getprop ro.product.manufacturer'
+2018-12-27 19:44:07:802 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': samsung
+2018-12-27 19:44:07:808 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-12-27 19:44:07:813 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\apkanalyzer.bat,C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\emulator\apkanalyzer.bat,C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\tools\apkanalyzer.bat,C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\tools\bin\apkanalyzer.bat,C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\build-tools\28.0.3\apkanalyzer.bat,C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\build-tools\27.0.3\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk'?
+2018-12-27 19:44:07:819 - info: [ADB] Extracting package and launch activity from manifest
+2018-12-27 19:44:07:856 - info: [ADB] Package name: 'io.selendroid.testapp'
+2018-12-27 19:44:07:859 - info: [ADB] Main activity name: 'io.selendroid.testapp.HomeScreenActivity'
+2018-12-27 19:44:07:867 - info: [debug] [AndroidDriver] Parsed package and activity are: io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity
+2018-12-27 19:44:07:869 - info: [debug] [ADB] Getting install status for io.selendroid.testapp
+2018-12-27 19:44:07:877 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell pm list packages io.selendroid.testapp'
+2018-12-27 19:44:07:949 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:07:954 - info: [HTTP] {}
+2018-12-27 19:44:07:956 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:07:957 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:07:960 - info: [HTTP] <-- GET /wd/hub/status 200 11 ms - 151
+2018-12-27 19:44:07:966 - info: [HTTP] 
+2018-12-27 19:44:08:508 - info: [debug] [ADB] App is installed
+2018-12-27 19:44:08:510 - info: [debug] [ADB] Getting install status for io.selendroid.testapp
+2018-12-27 19:44:08:516 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell pm list packages io.selendroid.testapp'
+2018-12-27 19:44:09:147 - info: [debug] [ADB] App is installed
+2018-12-27 19:44:09:160 - info: [debug] [ADB] Getting package info for 'io.selendroid.testapp'
+2018-12-27 19:44:09:162 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell dumpsys package io.selendroid.testapp'
+2018-12-27 19:44:09:357 - info: [debug] [ADB] The installed 'io.selendroid.testapp' package does not require upgrade ('0.17.0' >= '0.17.0')
+2018-12-27 19:44:09:359 - info: [AndroidDriver] Performing fast reset on 'io.selendroid.testapp'
+2018-12-27 19:44:09:365 - info: [debug] [ADB] Getting install status for io.selendroid.testapp
+2018-12-27 19:44:09:367 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell pm list packages io.selendroid.testapp'
+2018-12-27 19:44:09:971 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:09:976 - info: [HTTP] {}
+2018-12-27 19:44:09:982 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:09:988 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:09:998 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 151
+2018-12-27 19:44:10:008 - info: [HTTP] 
+2018-12-27 19:44:10:141 - info: [debug] [ADB] App is installed
+2018-12-27 19:44:10:148 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell am force-stop io.selendroid.testapp'
+2018-12-27 19:44:10:878 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell pm clear io.selendroid.testapp'
+2018-12-27 19:44:11:512 - info: [debug] [AndroidDriver] Performed fast reset on the installed 'io.selendroid.testapp' application (stop and clear)
+2018-12-27 19:44:11:518 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell rm -rf /data/local/tmp/strings.json'
+2018-12-27 19:44:11:595 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-12-27 19:44:11:601 - info: [debug] [AndroidDriver] F:\appiumworkspaces\AppiumNewSeries\AppiumGrid\.\app\selendroid-test-app-0.17.0.apk
+2018-12-27 19:44:11:602 - info: [debug] [AndroidDriver] null
+2018-12-27 19:44:11:605 - info: [debug] [AndroidDriver] C:\Users\WAY2AU~1\AppData\Local\Temp\io.selendroid.testapp
+2018-12-27 19:44:11:611 - info: [debug] [ADB] Extracting strings for language: default
+2018-12-27 19:44:11:664 - info: [ADB] Successfully extracted 15 strings from 'F:\appiumworkspaces\AppiumNewSeries\AppiumGrid\.\app\selendroid-test-app-0.17.0.apk' resources for '(default)' configuration
+2018-12-27 19:44:11:670 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd push C\:\\Users\\WAY2AU~1\\AppData\\Local\\Temp\\io.selendroid.testapp\\strings.json /data/local/tmp'
+2018-12-27 19:44:11:756 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-12-27 19:44:11:759 - info: [debug] [ADB] Forwarding system: 5556 to device: 4724
+2018-12-27 19:44:11:762 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd forward tcp\:5556 tcp\:4724'
+2018-12-27 19:44:11:817 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-12-27 19:44:11:818 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-12-27 19:44:11:820 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-12-27 19:44:11:826 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-12-27 19:44:11:827 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd push C\:\\Users\\WAY2AUTOMATION\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-12-27 19:44:11:899 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-12-27 19:44:11:911 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-12-27 19:44:11:920 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell ps'
+2018-12-27 19:44:12:001 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:12:007 - info: [HTTP] {}
+2018-12-27 19:44:12:009 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:12:011 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:12:016 - info: [HTTP] <-- GET /wd/hub/status 200 13 ms - 151
+2018-12-27 19:44:12:018 - info: [HTTP] 
+2018-12-27 19:44:12:076 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-12-27 19:44:12:082 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-12-27 19:44:12:084 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","3204d84f4c9c71dd","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","io.selendroid.testapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-12-27 19:44:12:549 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-12-27 19:44:12:553 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2018-12-27 19:44:12:554 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-12-27 19:44:12:556 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-12-27 19:44:12:562 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-12-27 19:44:12:580 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell dumpsys window'
+2018-12-27 19:44:12:592 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-12-27 19:44:12:706 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-12-27 19:44:12:721 - info: [debug] [ADB] Device API level: 21
+2018-12-27 19:44:12:729 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell am start -W -n io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-12-27 19:44:14:018 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:14:019 - info: [HTTP] {}
+2018-12-27 19:44:14:027 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:14:029 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:14:035 - info: [HTTP] <-- GET /wd/hub/status 200 13 ms - 151
+2018-12-27 19:44:14:037 - info: [HTTP] 
+2018-12-27 19:44:14:450 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'io.selendroid.testapp' and activity: 'io.selendroid.testapp.HomeScreenActivity' to be focused
+2018-12-27 19:44:14:453 - info: [debug] [ADB] Possible activities, to be checked: 'io.selendroid.testapp.HomeScreenActivity', 'io.selendroid.testapp.io.selendroid.testapp.HomeScreenActivity'
+2018-12-27 19:44:14:456 - info: [debug] [ADB] Getting focused package and activity
+2018-12-27 19:44:14:463 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell dumpsys window windows'
+2018-12-27 19:44:14:602 - info: [debug] [ADB] Found package: 'io.selendroid.testapp' and fully qualified activity name : 'io.selendroid.testapp.HomeScreenActivity'
+2018-12-27 19:44:14:605 - info: [Appium] New AndroidDriver session created successfully, session eda96fa2-c5c1-498c-b83a-b419838bb86d added to master session list
+2018-12-27 19:44:14:610 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1545939854606 (01:14:14 GMT+0530 (India Standard Time))
+2018-12-27 19:44:14:613 - info: [debug] [W3C] Cached the protocol value 'W3C' for the new session eda96fa2-c5c1-498c-b83a-b419838bb86d
+2018-12-27 19:44:14:624 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","server:CONFIG_UUID":"21bad0e7-24b9-44da-9bf3-0bb078d0925b","app":"F:\\appiumworkspaces\\AppiumNewSeries\\AppiumGrid\\.\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"8.0","deviceName":"192.168.1.5:5555","udid":"3204d84f4c9c71dd"},"platformName":"android","server:CONFIG_UUID":"21bad0e7-24b9-44da-9bf3-0bb078d0925b","app":"F:\\appiumworkspaces\\AppiumNewSeries\\AppiumGrid\\.\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"5.0.2","deviceName":"3204d84f4c9c71dd","udid":"3204d84f4c9c71dd","deviceUDID":"3204d84f4c9c71dd","deviceScreenSize":"2560x1600","deviceModel":"SM-T805","deviceManufacturer":"samsung","appPackage":"io.selendroid.testapp","appWaitPackage":"io.selendroid.testapp","appActivity":"io.selendroid.testapp.HomeScreenActivity","appWaitActiv...
+2018-12-27 19:44:14:705 - info: [HTTP] <-- POST /wd/hub/session 200 13278 ms - 1131
+2018-12-27 19:44:14:709 - info: [HTTP] 
+2018-12-27 19:44:14:713 - info: [HTTP] --> GET /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d
+2018-12-27 19:44:14:724 - info: [HTTP] {}
+2018-12-27 19:44:14:736 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["eda96fa2-c5c1-498c-b83a-b419838bb86d"]
+2018-12-27 19:44:14:766 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","server:CONFIG_UUID":"21bad0e7-24b9-44da-9bf3-0bb078d0925b","app":"F:\\appiumworkspaces\\AppiumNewSeries\\AppiumGrid\\.\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"8.0","deviceName":"192.168.1.5:5555","udid":"3204d84f4c9c71dd"},"platformName":"android","server:CONFIG_UUID":"21bad0e7-24b9-44da-9bf3-0bb078d0925b","app":"F:\\appiumworkspaces\\AppiumNewSeries\\AppiumGrid\\.\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"5.0.2","deviceName":"3204d84f4c9c71dd","udid":"3204d84f4c9c71dd","deviceUDID":"3204d84f4c9c71dd","deviceScreenSize":"2560x1600","deviceModel":"SM-T805","deviceManufacturer":"samsung","appPackage":"io.selendroid.testapp","appWaitPackage":"io.selendroid.testapp","appActivity":"io.selendroid.testapp.HomeScreenActivity","appWaitActivity":"io.selendr...
+2018-12-27 19:44:14:777 - info: [HTTP] <-- GET /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d 200 56 ms - 1063
+2018-12-27 19:44:14:778 - info: [HTTP] 
+2018-12-27 19:44:14:784 - info: [HTTP] --> GET /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d
+2018-12-27 19:44:14:792 - info: [HTTP] {}
+2018-12-27 19:44:14:794 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["eda96fa2-c5c1-498c-b83a-b419838bb86d"]
+2018-12-27 19:44:14:799 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","server:CONFIG_UUID":"21bad0e7-24b9-44da-9bf3-0bb078d0925b","app":"F:\\appiumworkspaces\\AppiumNewSeries\\AppiumGrid\\.\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"8.0","deviceName":"192.168.1.5:5555","udid":"3204d84f4c9c71dd"},"platformName":"android","server:CONFIG_UUID":"21bad0e7-24b9-44da-9bf3-0bb078d0925b","app":"F:\\appiumworkspaces\\AppiumNewSeries\\AppiumGrid\\.\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"5.0.2","deviceName":"3204d84f4c9c71dd","udid":"3204d84f4c9c71dd","deviceUDID":"3204d84f4c9c71dd","deviceScreenSize":"2560x1600","deviceModel":"SM-T805","deviceManufacturer":"samsung","appPackage":"io.selendroid.testapp","appWaitPackage":"io.selendroid.testapp","appActivity":"io.selendroid.testapp.HomeScreenActivity","appWaitActivity":"io.selendr...
+2018-12-27 19:44:14:817 - info: [HTTP] <-- GET /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d 200 19 ms - 1063
+2018-12-27 19:44:14:819 - info: [HTTP] 
+2018-12-27 19:44:14:823 - info: [HTTP] --> POST /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d/timeouts
+2018-12-27 19:44:14:826 - info: [HTTP] {"implicit":10000}
+2018-12-27 19:44:14:830 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"eda96fa2-c5c1-498c-b83a-b419838bb86d"]
+2018-12-27 19:44:14:840 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2018-12-27 19:44:14:842 - info: [debug] [BaseDriver] Set implicit wait to 10000ms
+2018-12-27 19:44:14:848 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-12-27 19:44:14:857 - info: [HTTP] <-- POST /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d/timeouts 200 27 ms - 14
+2018-12-27 19:44:14:859 - info: [HTTP] 
+2018-12-27 19:44:14:878 - info: [HTTP] --> POST /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d/element
+2018-12-27 19:44:14:879 - info: [HTTP] {"using":"id","value":"io.selendroid.testapp:id/my_text_field"}
+2018-12-27 19:44:14:886 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","io.selendroid.testapp:id/my_text_field","eda96fa2-c5c1-498c-b83a-b419838bb86d"]
+2018-12-27 19:44:14:892 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-27 19:44:14:897 - info: [debug] [BaseDriver] Waiting up to 10000 ms for condition
+2018-12-27 19:44:14:912 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"io.selendroid.testapp:id/my_text_field","context":"","multiple":false}}
+2018-12-27 19:44:14:920 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"io.selendroid.testapp:id/my_text_field","context":"","multiple":false}}
+2018-12-27 19:44:14:922 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-27 19:44:14:926 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-27 19:44:14:932 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'io.selendroid.testapp:id/my_text_field' using 'ID' with the contextId: '' multiple: false
+2018-12-27 19:44:14:941 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=io.selendroid.testapp:id/my_text_field]
+2018-12-27 19:44:15:041 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2018-12-27 19:44:15:047 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-27 19:44:15:054 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1"}
+2018-12-27 19:44:15:062 - info: [HTTP] <-- POST /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d/element 200 180 ms - 53
+2018-12-27 19:44:15:077 - info: [HTTP] 
+2018-12-27 19:44:15:093 - info: [HTTP] --> POST /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d/element/1/value
+2018-12-27 19:44:15:100 - info: [HTTP] {"id":"1","text":"Hello Appium !!!","value":["H","e","l","l","o"," ","A","p","p","i","u","m"," ","!","!","!"]}
+2018-12-27 19:44:15:106 - info: [debug] [W3C] Calling AppiumDriver.setValue() with args: [["H","e","l","l","o"," ","A","p","p","i","u","m"," ","!","!","!"],"1","eda96fa2-c5c1-498c-b83a-b419838bb86d"]
+2018-12-27 19:44:15:111 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"1","text":"Hello Appium !!!","replace":false}}
+2018-12-27 19:44:15:120 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"1","text":"Hello Appium !!!","replace":false}}
+2018-12-27 19:44:15:122 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-27 19:44:15:126 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-12-27 19:44:15:132 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 1
+2018-12-27 19:44:15:153 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-12-27 19:44:16:039 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:16:040 - info: [HTTP] {}
+2018-12-27 19:44:16:048 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:16:051 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:16:065 - info: [HTTP] <-- GET /wd/hub/status 200 16 ms - 151
+2018-12-27 19:44:16:069 - info: [HTTP] 
+2018-12-27 19:44:18:041 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: Hello Appium !!!
+2018-12-27 19:44:18:058 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:18:060 - info: [HTTP] {}
+2018-12-27 19:44:18:071 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:18:075 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:18:090 - info: [HTTP] <-- GET /wd/hub/status 200 18 ms - 151
+2018-12-27 19:44:18:092 - info: [HTTP] 
+2018-12-27 19:44:20:081 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:20:084 - info: [HTTP] {}
+2018-12-27 19:44:20:090 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:20:093 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:20:105 - info: [HTTP] <-- GET /wd/hub/status 200 14 ms - 151
+2018-12-27 19:44:20:108 - info: [HTTP] 
+2018-12-27 19:44:22:081 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-27 19:44:22:082 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-27 19:44:22:088 - info: [debug] [W3C] Responding to client with driver.setValue() result: true
+2018-12-27 19:44:22:089 - info: [HTTP] <-- POST /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d/element/1/value 200 7000 ms - 14
+2018-12-27 19:44:22:135 - info: [HTTP] 
+2018-12-27 19:44:22:139 - info: [HTTP] --> DELETE /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d
+2018-12-27 19:44:22:143 - info: [HTTP] {}
+2018-12-27 19:44:22:155 - info: [debug] [W3C] Calling AppiumDriver.deleteSession() with args: ["eda96fa2-c5c1-498c-b83a-b419838bb86d"]
+2018-12-27 19:44:22:157 - info: [debug] [BaseDriver] Event 'quitSessionRequested' logged at 1545939862155 (01:14:22 GMT+0530 (India Standard Time))
+2018-12-27 19:44:22:164 - info: [Appium] Removing session eda96fa2-c5c1-498c-b83a-b419838bb86d from our master session list
+2018-12-27 19:44:22:169 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-12-27 19:44:22:185 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell am force-stop io.selendroid.testapp'
+2018-12-27 19:44:22:195 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:22:199 - info: [HTTP] {}
+2018-12-27 19:44:22:204 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:22:209 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:22:214 - info: [HTTP] <-- GET /wd/hub/status 200 17 ms - 151
+2018-12-27 19:44:22:220 - info: [HTTP] 
+2018-12-27 19:44:22:868 - info: [debug] [ADB] Pressing the HOME button
+2018-12-27 19:44:22:872 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell input keyevent 3'
+2018-12-27 19:44:23:733 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2018-12-27 19:44:23:744 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2018-12-27 19:44:23:748 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2018-12-27 19:44:23:751 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2018-12-27 19:44:23:758 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2018-12-27 19:44:23:761 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2018-12-27 19:44:23:771 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2018-12-27 19:44:23:774 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2018-12-27 19:44:23:780 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2018-12-27 19:44:23:781 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2018-12-27 19:44:23:788 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2018-12-27 19:44:23:793 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2018-12-27 19:44:23:798 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2018-12-27 19:44:23:800 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2018-12-27 19:44:23:802 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 11.269
+2018-12-27 19:44:23:805 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2018-12-27 19:44:23:810 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2018-12-27 19:44:23:811 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-27 19:44:23:813 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2018-12-27 19:44:23:819 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2018-12-27 19:44:23:838 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2018-12-27 19:44:23:840 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-12-27 19:44:23:846 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-12-27 19:44:23:847 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-12-27 19:44:23:851 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell ps'
+2018-12-27 19:44:24:059 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-12-27 19:44:24:059 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-12-27 19:44:24:067 - info: [debug] [Logcat] Stopping logcat capture
+2018-12-27 19:44:24:089 - info: [debug] [ADB] Running 'C:\Users\WAY2AUTOMATION\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 3204d84f4c9c71dd shell am force-stop io.appium.unlock'
+2018-12-27 19:44:24:216 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:24:222 - info: [HTTP] {}
+2018-12-27 19:44:24:223 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:24:226 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:24:238 - info: [HTTP] <-- GET /wd/hub/status 200 13 ms - 151
+2018-12-27 19:44:24:242 - info: [HTTP] 
+2018-12-27 19:44:24:697 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2018-12-27 19:44:24:703 - info: [debug] [BaseDriver] Event 'quitSessionFinished' logged at 1545939864698 (01:14:24 GMT+0530 (India Standard Time))
+2018-12-27 19:44:24:704 - info: [debug] [W3C] Received response: null
+2018-12-27 19:44:24:706 - info: [debug] [W3C] But deleting session, so not returning
+2018-12-27 19:44:24:712 - info: [debug] [W3C] Responding to client with driver.deleteSession() result: null
+2018-12-27 19:44:24:718 - info: [HTTP] <-- DELETE /wd/hub/session/eda96fa2-c5c1-498c-b83a-b419838bb86d 200 2576 ms - 14
+2018-12-27 19:44:24:722 - info: [HTTP] 
+2018-12-27 19:44:26:232 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:26:234 - info: [HTTP] {}
+2018-12-27 19:44:26:235 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:26:243 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:26:249 - info: [HTTP] <-- GET /wd/hub/status 200 16 ms - 151
+2018-12-27 19:44:26:250 - info: [HTTP] 
+2018-12-27 19:44:28:258 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:28:264 - info: [HTTP] {}
+2018-12-27 19:44:28:269 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:28:276 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:28:290 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 151
+2018-12-27 19:44:28:304 - info: [HTTP] 
+2018-12-27 19:44:30:289 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:30:290 - info: [HTTP] {}
+2018-12-27 19:44:30:295 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:30:300 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:30:305 - info: [HTTP] <-- GET /wd/hub/status 200 16 ms - 151
+2018-12-27 19:44:30:305 - info: [HTTP] 
+2018-12-27 19:44:32:322 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:32:322 - info: [HTTP] {}
+2018-12-27 19:44:32:323 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:32:324 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:32:326 - info: [HTTP] <-- GET /wd/hub/status 200 18 ms - 151
+2018-12-27 19:44:32:328 - info: [HTTP] 
+2018-12-27 19:44:34:338 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:34:343 - info: [HTTP] {}
+2018-12-27 19:44:34:346 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:34:352 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:34:357 - info: [HTTP] <-- GET /wd/hub/status 200 20 ms - 151
+2018-12-27 19:44:34:362 - info: [HTTP] 
+2018-12-27 19:44:36:367 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:36:371 - info: [HTTP] {}
+2018-12-27 19:44:36:375 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:36:384 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:36:396 - info: [HTTP] <-- GET /wd/hub/status 200 25 ms - 151
+2018-12-27 19:44:36:408 - info: [HTTP] 
+2018-12-27 19:44:38:398 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:38:403 - info: [HTTP] {}
+2018-12-27 19:44:38:404 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:38:416 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:38:427 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 151
+2018-12-27 19:44:38:432 - info: [HTTP] 
+2018-12-27 19:44:40:429 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:40:434 - info: [HTTP] {}
+2018-12-27 19:44:40:446 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:40:450 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:40:466 - info: [HTTP] <-- GET /wd/hub/status 200 27 ms - 151
+2018-12-27 19:44:40:468 - info: [HTTP] 
+2018-12-27 19:44:42:461 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:42:465 - info: [HTTP] {}
+2018-12-27 19:44:42:467 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:42:477 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:42:486 - info: [HTTP] <-- GET /wd/hub/status 200 22 ms - 151
+2018-12-27 19:44:42:499 - info: [HTTP] 
+2018-12-27 19:44:44:494 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:44:497 - info: [HTTP] {}
+2018-12-27 19:44:44:499 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:44:513 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:44:526 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:44:44:528 - info: [HTTP] 
+2018-12-27 19:44:46:526 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:46:531 - info: [HTTP] {}
+2018-12-27 19:44:46:533 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:46:546 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:46:553 - info: [HTTP] <-- GET /wd/hub/status 200 26 ms - 151
+2018-12-27 19:44:46:559 - info: [HTTP] 
+2018-12-27 19:44:48:564 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:48:567 - info: [HTTP] {}
+2018-12-27 19:44:48:577 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:48:580 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:48:586 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 151
+2018-12-27 19:44:48:594 - info: [HTTP] 
+2018-12-27 19:44:50:589 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:50:590 - info: [HTTP] {}
+2018-12-27 19:44:50:595 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:50:597 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:50:602 - info: [HTTP] <-- GET /wd/hub/status 200 11 ms - 151
+2018-12-27 19:44:50:613 - info: [HTTP] 
+2018-12-27 19:44:52:613 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:52:617 - info: [HTTP] {}
+2018-12-27 19:44:52:621 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:52:627 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:52:644 - info: [HTTP] <-- GET /wd/hub/status 200 22 ms - 151
+2018-12-27 19:44:52:650 - info: [HTTP] 
+2018-12-27 19:44:54:643 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:54:649 - info: [HTTP] {}
+2018-12-27 19:44:54:657 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:54:659 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:54:669 - info: [HTTP] <-- GET /wd/hub/status 200 22 ms - 151
+2018-12-27 19:44:54:677 - info: [HTTP] 
+2018-12-27 19:44:56:678 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:56:683 - info: [HTTP] {}
+2018-12-27 19:44:56:685 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:56:690 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:56:702 - info: [HTTP] <-- GET /wd/hub/status 200 15 ms - 151
+2018-12-27 19:44:56:708 - info: [HTTP] 
+2018-12-27 19:44:58:698 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:44:58:698 - info: [HTTP] {}
+2018-12-27 19:44:58:703 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:44:58:705 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:44:58:708 - info: [HTTP] <-- GET /wd/hub/status 200 10 ms - 151
+2018-12-27 19:44:58:714 - info: [HTTP] 
+2018-12-27 19:45:00:711 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:00:712 - info: [HTTP] {}
+2018-12-27 19:45:00:720 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:00:724 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:00:730 - info: [HTTP] <-- GET /wd/hub/status 200 15 ms - 151
+2018-12-27 19:45:00:735 - info: [HTTP] 
+2018-12-27 19:45:02:737 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:02:738 - info: [HTTP] {}
+2018-12-27 19:45:02:741 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:02:747 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:02:750 - info: [HTTP] <-- GET /wd/hub/status 200 19 ms - 151
+2018-12-27 19:45:02:755 - info: [HTTP] 
+2018-12-27 19:45:04:777 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:04:788 - info: [HTTP] {}
+2018-12-27 19:45:04:790 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:04:796 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:04:800 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 151
+2018-12-27 19:45:04:807 - info: [HTTP] 
+2018-12-27 19:45:06:802 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:06:803 - info: [HTTP] {}
+2018-12-27 19:45:06:809 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:06:811 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:06:826 - info: [HTTP] <-- GET /wd/hub/status 200 11 ms - 151
+2018-12-27 19:45:06:828 - info: [HTTP] 
+2018-12-27 19:45:08:822 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:08:823 - info: [HTTP] {}
+2018-12-27 19:45:08:829 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:08:833 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:08:842 - info: [HTTP] <-- GET /wd/hub/status 200 17 ms - 151
+2018-12-27 19:45:08:849 - info: [HTTP] 
+2018-12-27 19:45:10:839 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:10:853 - info: [HTTP] {}
+2018-12-27 19:45:10:854 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:10:862 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:10:864 - info: [HTTP] <-- GET /wd/hub/status 200 26 ms - 151
+2018-12-27 19:45:10:868 - info: [HTTP] 
+2018-12-27 19:45:12:869 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:12:875 - info: [HTTP] {}
+2018-12-27 19:45:12:877 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:12:887 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:12:895 - info: [HTTP] <-- GET /wd/hub/status 200 21 ms - 151
+2018-12-27 19:45:12:902 - info: [HTTP] 
+2018-12-27 19:45:14:903 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:14:909 - info: [HTTP] {}
+2018-12-27 19:45:14:920 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:14:926 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:14:933 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:45:14:939 - info: [HTTP] 
+2018-12-27 19:45:16:942 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:16:948 - info: [HTTP] {}
+2018-12-27 19:45:16:953 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:16:959 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:16:964 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 151
+2018-12-27 19:45:16:970 - info: [HTTP] 
+2018-12-27 19:45:18:969 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:18:975 - info: [HTTP] {}
+2018-12-27 19:45:18:976 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:18:984 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:18:989 - info: [HTTP] <-- GET /wd/hub/status 200 19 ms - 151
+2018-12-27 19:45:18:995 - info: [HTTP] 
+2018-12-27 19:45:20:999 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:21:005 - info: [HTTP] {}
+2018-12-27 19:45:21:015 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:21:023 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:21:031 - info: [HTTP] <-- GET /wd/hub/status 200 31 ms - 151
+2018-12-27 19:45:21:037 - info: [HTTP] 
+2018-12-27 19:45:23:036 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:23:038 - info: [HTTP] {}
+2018-12-27 19:45:23:045 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:23:050 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:23:055 - info: [HTTP] <-- GET /wd/hub/status 200 19 ms - 151
+2018-12-27 19:45:23:058 - info: [HTTP] 
+2018-12-27 19:45:25:060 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:25:067 - info: [HTTP] {}
+2018-12-27 19:45:25:071 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:25:079 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:25:085 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 151
+2018-12-27 19:45:25:091 - info: [HTTP] 
+2018-12-27 19:45:27:087 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:27:088 - info: [HTTP] {}
+2018-12-27 19:45:27:095 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:27:098 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:27:103 - info: [HTTP] <-- GET /wd/hub/status 200 13 ms - 151
+2018-12-27 19:45:27:106 - info: [HTTP] 
+2018-12-27 19:45:29:105 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:29:111 - info: [HTTP] {}
+2018-12-27 19:45:29:112 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:29:114 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:29:117 - info: [HTTP] <-- GET /wd/hub/status 200 11 ms - 151
+2018-12-27 19:45:29:121 - info: [HTTP] 
+2018-12-27 19:45:31:119 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:31:125 - info: [HTTP] {}
+2018-12-27 19:45:31:126 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:31:130 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:31:132 - info: [HTTP] <-- GET /wd/hub/status 200 13 ms - 151
+2018-12-27 19:45:31:137 - info: [HTTP] 
+2018-12-27 19:45:33:144 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:33:146 - info: [HTTP] {}
+2018-12-27 19:45:33:150 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:33:156 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:33:163 - info: [HTTP] <-- GET /wd/hub/status 200 21 ms - 151
+2018-12-27 19:45:33:169 - info: [HTTP] 
+2018-12-27 19:45:35:163 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:35:164 - info: [HTTP] {}
+2018-12-27 19:45:35:170 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:35:171 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:35:176 - info: [HTTP] <-- GET /wd/hub/status 200 11 ms - 151
+2018-12-27 19:45:35:181 - info: [HTTP] 
+2018-12-27 19:45:37:195 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:37:202 - info: [HTTP] {}
+2018-12-27 19:45:37:210 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:37:228 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:37:249 - info: [HTTP] <-- GET /wd/hub/status 200 43 ms - 151
+2018-12-27 19:45:37:256 - info: [HTTP] 
+2018-12-27 19:45:39:243 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:39:249 - info: [HTTP] {}
+2018-12-27 19:45:39:253 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:39:267 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:39:277 - info: [HTTP] <-- GET /wd/hub/status 200 31 ms - 151
+2018-12-27 19:45:39:279 - info: [HTTP] 
+2018-12-27 19:45:41:281 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:41:287 - info: [HTTP] {}
+2018-12-27 19:45:41:292 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:41:297 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:41:313 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 151
+2018-12-27 19:45:41:315 - info: [HTTP] 
+2018-12-27 19:45:43:307 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:43:309 - info: [HTTP] {}
+2018-12-27 19:45:43:322 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:43:325 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:43:328 - info: [HTTP] <-- GET /wd/hub/status 200 22 ms - 151
+2018-12-27 19:45:43:331 - info: [HTTP] 
+2018-12-27 19:45:45:331 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:45:332 - info: [HTTP] {}
+2018-12-27 19:45:45:341 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:45:342 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:45:348 - info: [HTTP] <-- GET /wd/hub/status 200 14 ms - 151
+2018-12-27 19:45:45:348 - info: [HTTP] 
+2018-12-27 19:45:47:356 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:47:362 - info: [HTTP] {}
+2018-12-27 19:45:47:373 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:47:379 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:47:388 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:45:47:397 - info: [HTTP] 
+2018-12-27 19:45:49:397 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:49:405 - info: [HTTP] {}
+2018-12-27 19:45:49:407 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:49:415 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:49:424 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:45:49:425 - info: [HTTP] 
+2018-12-27 19:45:51:428 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:51:434 - info: [HTTP] {}
+2018-12-27 19:45:51:437 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:51:442 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:51:448 - info: [HTTP] <-- GET /wd/hub/status 200 20 ms - 151
+2018-12-27 19:45:51:455 - info: [HTTP] 
+2018-12-27 19:45:53:455 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:53:461 - info: [HTTP] {}
+2018-12-27 19:45:53:473 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:53:476 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:53:480 - info: [HTTP] <-- GET /wd/hub/status 200 27 ms - 151
+2018-12-27 19:45:53:490 - info: [HTTP] 
+2018-12-27 19:45:55:486 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:55:493 - info: [HTTP] {}
+2018-12-27 19:45:55:495 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:55:505 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:55:511 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 151
+2018-12-27 19:45:55:520 - info: [HTTP] 
+2018-12-27 19:45:57:520 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:57:526 - info: [HTTP] {}
+2018-12-27 19:45:57:537 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:57:543 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:57:549 - info: [HTTP] <-- GET /wd/hub/status 200 30 ms - 151
+2018-12-27 19:45:57:557 - info: [HTTP] 
+2018-12-27 19:45:59:564 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:45:59:569 - info: [HTTP] {}
+2018-12-27 19:45:59:574 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:45:59:586 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:45:59:591 - info: [HTTP] <-- GET /wd/hub/status 200 32 ms - 151
+2018-12-27 19:45:59:597 - info: [HTTP] 
+2018-12-27 19:46:01:601 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:01:607 - info: [HTTP] {}
+2018-12-27 19:46:01:609 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:01:620 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:01:626 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 151
+2018-12-27 19:46:01:634 - info: [HTTP] 
+2018-12-27 19:46:03:638 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:03:644 - info: [HTTP] {}
+2018-12-27 19:46:03:653 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:03:660 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:03:670 - info: [HTTP] <-- GET /wd/hub/status 200 33 ms - 151
+2018-12-27 19:46:03:671 - info: [HTTP] 
+2018-12-27 19:46:05:683 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:05:685 - info: [HTTP] {}
+2018-12-27 19:46:05:686 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:05:689 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:05:695 - info: [HTTP] <-- GET /wd/hub/status 200 17 ms - 151
+2018-12-27 19:46:05:697 - info: [HTTP] 
+2018-12-27 19:46:07:696 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:07:702 - info: [HTTP] {}
+2018-12-27 19:46:07:702 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:07:703 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:07:706 - info: [HTTP] <-- GET /wd/hub/status 200 10 ms - 151
+2018-12-27 19:46:07:706 - info: [HTTP] 
+2018-12-27 19:46:09:715 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:09:717 - info: [HTTP] {}
+2018-12-27 19:46:09:718 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:09:720 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:09:723 - info: [HTTP] <-- GET /wd/hub/status 200 14 ms - 151
+2018-12-27 19:46:09:733 - info: [HTTP] 
+2018-12-27 19:46:11:725 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:11:728 - info: [HTTP] {}
+2018-12-27 19:46:11:735 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:11:737 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:11:743 - info: [HTTP] <-- GET /wd/hub/status 200 13 ms - 151
+2018-12-27 19:46:11:744 - info: [HTTP] 
+2018-12-27 19:46:13:749 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:13:755 - info: [HTTP] {}
+2018-12-27 19:46:13:766 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:13:771 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:13:780 - info: [HTTP] <-- GET /wd/hub/status 200 28 ms - 151
+2018-12-27 19:46:13:784 - info: [HTTP] 
+2018-12-27 19:46:15:787 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:15:793 - info: [HTTP] {}
+2018-12-27 19:46:15:799 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:15:805 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:15:815 - info: [HTTP] <-- GET /wd/hub/status 200 25 ms - 151
+2018-12-27 19:46:15:816 - info: [HTTP] 
+2018-12-27 19:46:17:820 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:17:832 - info: [HTTP] {}
+2018-12-27 19:46:17:836 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:17:842 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:17:852 - info: [HTTP] <-- GET /wd/hub/status 200 27 ms - 151
+2018-12-27 19:46:17:858 - info: [HTTP] 
+2018-12-27 19:46:19:862 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:19:868 - info: [HTTP] {}
+2018-12-27 19:46:19:871 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:19:879 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:19:889 - info: [HTTP] <-- GET /wd/hub/status 200 28 ms - 151
+2018-12-27 19:46:19:897 - info: [HTTP] 
+2018-12-27 19:46:21:899 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:21:907 - info: [HTTP] {}
+2018-12-27 19:46:21:910 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:21:915 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:21:920 - info: [HTTP] <-- GET /wd/hub/status 200 25 ms - 151
+2018-12-27 19:46:21:928 - info: [HTTP] 
+2018-12-27 19:46:23:924 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:23:930 - info: [HTTP] {}
+2018-12-27 19:46:23:932 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:23:936 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:23:944 - info: [HTTP] <-- GET /wd/hub/status 200 15 ms - 151
+2018-12-27 19:46:23:948 - info: [HTTP] 
+2018-12-27 19:46:25:943 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:25:943 - info: [HTTP] {}
+2018-12-27 19:46:25:949 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:25:953 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:25:959 - info: [HTTP] <-- GET /wd/hub/status 200 13 ms - 151
+2018-12-27 19:46:25:962 - info: [HTTP] 
+2018-12-27 19:46:27:965 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:27:965 - info: [HTTP] {}
+2018-12-27 19:46:27:972 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:27:973 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:27:976 - info: [HTTP] <-- GET /wd/hub/status 200 13 ms - 151
+2018-12-27 19:46:27:981 - info: [HTTP] 
+2018-12-27 19:46:29:980 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:29:985 - info: [HTTP] {}
+2018-12-27 19:46:29:988 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:29:990 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:29:996 - info: [HTTP] <-- GET /wd/hub/status 200 13 ms - 151
+2018-12-27 19:46:29:996 - info: [HTTP] 
+2018-12-27 19:46:32:004 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:32:008 - info: [HTTP] {}
+2018-12-27 19:46:32:013 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:32:017 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:32:026 - info: [HTTP] <-- GET /wd/hub/status 200 20 ms - 151
+2018-12-27 19:46:32:029 - info: [HTTP] 
+2018-12-27 19:46:34:031 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:34:042 - info: [HTTP] {}
+2018-12-27 19:46:34:046 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:34:053 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:34:062 - info: [HTTP] <-- GET /wd/hub/status 200 26 ms - 151
+2018-12-27 19:46:34:067 - info: [HTTP] 
+2018-12-27 19:46:36:065 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:36:073 - info: [HTTP] {}
+2018-12-27 19:46:36:076 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:36:078 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:36:097 - info: [HTTP] <-- GET /wd/hub/status 200 16 ms - 151
+2018-12-27 19:46:36:106 - info: [HTTP] 
+2018-12-27 19:46:38:085 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:38:086 - info: [HTTP] {}
+2018-12-27 19:46:38:086 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:38:094 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:38:100 - info: [HTTP] <-- GET /wd/hub/status 200 12 ms - 151
+2018-12-27 19:46:38:114 - info: [HTTP] 
+2018-12-27 19:46:40:114 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:40:120 - info: [HTTP] {}
+2018-12-27 19:46:40:122 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:40:142 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:40:145 - info: [HTTP] <-- GET /wd/hub/status 200 37 ms - 151
+2018-12-27 19:46:40:164 - info: [HTTP] 
+2018-12-27 19:46:42:155 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:42:179 - info: [HTTP] {}
+2018-12-27 19:46:42:181 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:42:203 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:42:211 - info: [HTTP] <-- GET /wd/hub/status 200 55 ms - 151
+2018-12-27 19:46:42:212 - info: [HTTP] 
+2018-12-27 19:46:44:214 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:44:221 - info: [HTTP] {}
+2018-12-27 19:46:44:222 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:44:225 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:44:232 - info: [HTTP] <-- GET /wd/hub/status 200 19 ms - 151
+2018-12-27 19:46:44:237 - info: [HTTP] 
+2018-12-27 19:46:46:252 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:46:266 - info: [HTTP] {}
+2018-12-27 19:46:46:269 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:46:272 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:46:291 - info: [HTTP] <-- GET /wd/hub/status 200 40 ms - 151
+2018-12-27 19:46:46:293 - info: [HTTP] 
+2018-12-27 19:46:48:288 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:48:303 - info: [HTTP] {}
+2018-12-27 19:46:48:305 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:48:311 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:48:324 - info: [HTTP] <-- GET /wd/hub/status 200 32 ms - 151
+2018-12-27 19:46:48:326 - info: [HTTP] 
+2018-12-27 19:46:50:335 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:50:336 - info: [HTTP] {}
+2018-12-27 19:46:50:356 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:50:359 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:50:368 - info: [HTTP] <-- GET /wd/hub/status 200 36 ms - 151
+2018-12-27 19:46:50:372 - info: [HTTP] 
+2018-12-27 19:46:52:369 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:52:373 - info: [HTTP] {}
+2018-12-27 19:46:52:392 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:52:402 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:52:405 - info: [HTTP] <-- GET /wd/hub/status 200 37 ms - 151
+2018-12-27 19:46:52:407 - info: [HTTP] 
+2018-12-27 19:46:54:417 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:54:418 - info: [HTTP] {}
+2018-12-27 19:46:54:420 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:54:424 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:54:430 - info: [HTTP] <-- GET /wd/hub/status 200 16 ms - 151
+2018-12-27 19:46:54:435 - info: [HTTP] 
+2018-12-27 19:46:56:456 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:56:463 - info: [HTTP] {}
+2018-12-27 19:46:56:467 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:56:483 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:56:487 - info: [HTTP] <-- GET /wd/hub/status 200 56 ms - 151
+2018-12-27 19:46:56:504 - info: [HTTP] 
+2018-12-27 19:46:58:491 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:46:58:502 - info: [HTTP] {}
+2018-12-27 19:46:58:505 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:46:58:520 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:46:58:524 - info: [HTTP] <-- GET /wd/hub/status 200 33 ms - 151
+2018-12-27 19:46:58:524 - info: [HTTP] 
+2018-12-27 19:47:00:538 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:00:547 - info: [HTTP] {}
+2018-12-27 19:47:00:551 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:00:556 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:00:571 - info: [HTTP] <-- GET /wd/hub/status 200 30 ms - 151
+2018-12-27 19:47:00:574 - info: [HTTP] 
+2018-12-27 19:47:02:568 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:02:583 - info: [HTTP] {}
+2018-12-27 19:47:02:593 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:02:612 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:02:618 - info: [HTTP] <-- GET /wd/hub/status 200 50 ms - 151
+2018-12-27 19:47:02:630 - info: [HTTP] 
+2018-12-27 19:47:04:620 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:04:639 - info: [HTTP] {}
+2018-12-27 19:47:04:649 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:04:651 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:04:667 - info: [HTTP] <-- GET /wd/hub/status 200 35 ms - 151
+2018-12-27 19:47:04:671 - info: [HTTP] 
+2018-12-27 19:47:06:667 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:06:669 - info: [HTTP] {}
+2018-12-27 19:47:06:680 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:06:685 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:06:689 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:47:06:698 - info: [HTTP] 
+2018-12-27 19:47:08:694 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:08:704 - info: [HTTP] {}
+2018-12-27 19:47:08:714 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:08:716 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:08:735 - info: [HTTP] <-- GET /wd/hub/status 200 26 ms - 151
+2018-12-27 19:47:08:739 - info: [HTTP] 
+2018-12-27 19:47:10:731 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:10:733 - info: [HTTP] {}
+2018-12-27 19:47:10:734 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:10:736 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:10:743 - info: [HTTP] <-- GET /wd/hub/status 200 17 ms - 151
+2018-12-27 19:47:10:744 - info: [HTTP] 
+2018-12-27 19:47:12:750 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:12:763 - info: [HTTP] {}
+2018-12-27 19:47:12:766 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:12:772 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:12:775 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:47:12:793 - info: [HTTP] 
+2018-12-27 19:47:14:786 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:14:788 - info: [HTTP] {}
+2018-12-27 19:47:14:793 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:14:813 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:14:816 - info: [HTTP] <-- GET /wd/hub/status 200 37 ms - 151
+2018-12-27 19:47:14:822 - info: [HTTP] 
+2018-12-27 19:47:16:865 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:16:872 - info: [HTTP] {}
+2018-12-27 19:47:16:874 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:16:877 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:16:882 - info: [HTTP] <-- GET /wd/hub/status 200 60 ms - 151
+2018-12-27 19:47:16:884 - info: [HTTP] 
+2018-12-27 19:47:18:892 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:18:898 - info: [HTTP] {}
+2018-12-27 19:47:18:900 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:18:923 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:18:932 - info: [HTTP] <-- GET /wd/hub/status 200 41 ms - 151
+2018-12-27 19:47:18:937 - info: [HTTP] 
+2018-12-27 19:47:20:934 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:20:944 - info: [HTTP] {}
+2018-12-27 19:47:20:947 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:20:953 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:20:960 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 151
+2018-12-27 19:47:20:965 - info: [HTTP] 
+2018-12-27 19:47:22:969 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:22:970 - info: [HTTP] {}
+2018-12-27 19:47:22:973 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:22:993 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:22:996 - info: [HTTP] <-- GET /wd/hub/status 200 36 ms - 151
+2018-12-27 19:47:23:002 - info: [HTTP] 
+2018-12-27 19:47:25:005 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:25:023 - info: [HTTP] {}
+2018-12-27 19:47:25:026 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:25:055 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:25:059 - info: [HTTP] <-- GET /wd/hub/status 200 58 ms - 151
+2018-12-27 19:47:25:064 - info: [HTTP] 
+2018-12-27 19:47:27:069 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:27:075 - info: [HTTP] {}
+2018-12-27 19:47:27:076 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:27:081 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:27:096 - info: [HTTP] <-- GET /wd/hub/status 200 21 ms - 151
+2018-12-27 19:47:27:100 - info: [HTTP] 
+2018-12-27 19:47:29:095 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:29:106 - info: [HTTP] {}
+2018-12-27 19:47:29:108 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:29:115 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:29:122 - info: [HTTP] <-- GET /wd/hub/status 200 30 ms - 151
+2018-12-27 19:47:29:140 - info: [HTTP] 
+2018-12-27 19:47:31:131 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:31:146 - info: [HTTP] {}
+2018-12-27 19:47:31:154 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:31:159 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:31:164 - info: [HTTP] <-- GET /wd/hub/status 200 40 ms - 151
+2018-12-27 19:47:31:168 - info: [HTTP] 
+2018-12-27 19:47:33:177 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:33:191 - info: [HTTP] {}
+2018-12-27 19:47:33:194 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:33:202 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:33:207 - info: [HTTP] <-- GET /wd/hub/status 200 39 ms - 151
+2018-12-27 19:47:33:220 - info: [HTTP] 
+2018-12-27 19:47:35:210 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:35:217 - info: [HTTP] {}
+2018-12-27 19:47:35:221 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:35:226 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:35:229 - info: [HTTP] <-- GET /wd/hub/status 200 20 ms - 151
+2018-12-27 19:47:35:245 - info: [HTTP] 
+2018-12-27 19:47:37:233 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:37:239 - info: [HTTP] {}
+2018-12-27 19:47:37:241 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:37:259 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:37:263 - info: [HTTP] <-- GET /wd/hub/status 200 30 ms - 151
+2018-12-27 19:47:37:282 - info: [HTTP] 
+2018-12-27 19:47:39:269 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:39:281 - info: [HTTP] {}
+2018-12-27 19:47:39:284 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:39:304 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:39:308 - info: [HTTP] <-- GET /wd/hub/status 200 40 ms - 151
+2018-12-27 19:47:39:315 - info: [HTTP] 
+2018-12-27 19:47:41:322 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:41:338 - info: [HTTP] {}
+2018-12-27 19:47:41:341 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:41:346 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:41:352 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:47:41:365 - info: [HTTP] 
+2018-12-27 19:47:43:356 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:43:356 - info: [HTTP] {}
+2018-12-27 19:47:43:368 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:43:374 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:43:376 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 151
+2018-12-27 19:47:43:393 - info: [HTTP] 
+2018-12-27 19:47:45:380 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:45:380 - info: [HTTP] {}
+2018-12-27 19:47:45:388 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:45:393 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:45:409 - info: [HTTP] <-- GET /wd/hub/status 200 16 ms - 151
+2018-12-27 19:47:45:418 - info: [HTTP] 
+2018-12-27 19:47:47:399 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:47:406 - info: [HTTP] {}
+2018-12-27 19:47:47:407 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:47:426 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:47:432 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:47:47:450 - info: [HTTP] 
+2018-12-27 19:47:49:435 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:49:448 - info: [HTTP] {}
+2018-12-27 19:47:49:453 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:49:473 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:49:498 - info: [HTTP] <-- GET /wd/hub/status 200 42 ms - 151
+2018-12-27 19:47:49:501 - info: [HTTP] 
+2018-12-27 19:47:51:480 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:51:488 - info: [HTTP] {}
+2018-12-27 19:47:51:497 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:51:500 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:51:518 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 151
+2018-12-27 19:47:51:523 - info: [HTTP] 
+2018-12-27 19:47:53:516 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:53:523 - info: [HTTP] {}
+2018-12-27 19:47:53:527 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:53:530 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:53:547 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 151
+2018-12-27 19:47:53:551 - info: [HTTP] 
+2018-12-27 19:47:55:537 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:55:538 - info: [HTTP] {}
+2018-12-27 19:47:55:554 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:55:576 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:55:581 - info: [HTTP] <-- GET /wd/hub/status 200 42 ms - 151
+2018-12-27 19:47:55:601 - info: [HTTP] 
+2018-12-27 19:47:57:604 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:57:605 - info: [HTTP] {}
+2018-12-27 19:47:57:620 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:57:628 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:57:635 - info: [HTTP] <-- GET /wd/hub/status 200 47 ms - 151
+2018-12-27 19:47:57:649 - info: [HTTP] 
+2018-12-27 19:47:59:636 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:47:59:646 - info: [HTTP] {}
+2018-12-27 19:47:59:650 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:47:59:667 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:47:59:671 - info: [HTTP] <-- GET /wd/hub/status 200 35 ms - 151
+2018-12-27 19:47:59:678 - info: [HTTP] 
+2018-12-27 19:48:01:677 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:01:695 - info: [HTTP] {}
+2018-12-27 19:48:01:700 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:01:704 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:01:716 - info: [HTTP] <-- GET /wd/hub/status 200 33 ms - 151
+2018-12-27 19:48:01:716 - info: [HTTP] 
+2018-12-27 19:48:03:711 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:03:717 - info: [HTTP] {}
+2018-12-27 19:48:03:738 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:03:743 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:03:761 - info: [HTTP] <-- GET /wd/hub/status 200 35 ms - 151
+2018-12-27 19:48:03:766 - info: [HTTP] 
+2018-12-27 19:48:05:751 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:05:762 - info: [HTTP] {}
+2018-12-27 19:48:05:766 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:05:784 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:05:789 - info: [HTTP] <-- GET /wd/hub/status 200 36 ms - 151
+2018-12-27 19:48:05:810 - info: [HTTP] 
+2018-12-27 19:48:07:790 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:07:790 - info: [HTTP] {}
+2018-12-27 19:48:07:801 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:07:821 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:07:825 - info: [HTTP] <-- GET /wd/hub/status 200 34 ms - 151
+2018-12-27 19:48:07:843 - info: [HTTP] 
+2018-12-27 19:48:09:829 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:09:829 - info: [HTTP] {}
+2018-12-27 19:48:09:844 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:09:845 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:09:858 - info: [HTTP] <-- GET /wd/hub/status 200 19 ms - 151
+2018-12-27 19:48:09:860 - info: [HTTP] 
+2018-12-27 19:48:11:867 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:11:873 - info: [HTTP] {}
+2018-12-27 19:48:11:874 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:11:877 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:11:883 - info: [HTTP] <-- GET /wd/hub/status 200 25 ms - 151
+2018-12-27 19:48:11:884 - info: [HTTP] 
+2018-12-27 19:48:13:890 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:13:892 - info: [HTTP] {}
+2018-12-27 19:48:13:893 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:13:912 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:13:916 - info: [HTTP] <-- GET /wd/hub/status 200 32 ms - 151
+2018-12-27 19:48:13:935 - info: [HTTP] 
+2018-12-27 19:48:15:918 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:15:928 - info: [HTTP] {}
+2018-12-27 19:48:15:930 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:15:942 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:15:947 - info: [HTTP] <-- GET /wd/hub/status 200 26 ms - 151
+2018-12-27 19:48:15:966 - info: [HTTP] 
+2018-12-27 19:48:17:950 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:17:955 - info: [HTTP] {}
+2018-12-27 19:48:17:962 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:17:975 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:17:980 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:48:17:999 - info: [HTTP] 
+2018-12-27 19:48:20:023 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:20:037 - info: [HTTP] {}
+2018-12-27 19:48:20:040 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:20:059 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:20:064 - info: [HTTP] <-- GET /wd/hub/status 200 78 ms - 151
+2018-12-27 19:48:20:080 - info: [HTTP] 
+2018-12-27 19:48:22:066 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:22:067 - info: [HTTP] {}
+2018-12-27 19:48:22:075 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:22:079 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:22:095 - info: [HTTP] <-- GET /wd/hub/status 200 15 ms - 151
+2018-12-27 19:48:22:109 - info: [HTTP] 
+2018-12-27 19:48:24:087 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:24:098 - info: [HTTP] {}
+2018-12-27 19:48:24:101 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:24:120 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:24:125 - info: [HTTP] <-- GET /wd/hub/status 200 37 ms - 151
+2018-12-27 19:48:24:140 - info: [HTTP] 
+2018-12-27 19:48:26:127 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:26:133 - info: [HTTP] {}
+2018-12-27 19:48:26:135 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:26:152 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:26:156 - info: [HTTP] <-- GET /wd/hub/status 200 27 ms - 151
+2018-12-27 19:48:26:158 - info: [HTTP] 
+2018-12-27 19:48:28:174 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:28:175 - info: [HTTP] {}
+2018-12-27 19:48:28:177 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:28:179 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:28:181 - info: [HTTP] <-- GET /wd/hub/status 200 20 ms - 151
+2018-12-27 19:48:28:183 - info: [HTTP] 
+2018-12-27 19:48:30:187 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:30:196 - info: [HTTP] {}
+2018-12-27 19:48:30:199 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:30:219 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:30:224 - info: [HTTP] <-- GET /wd/hub/status 200 36 ms - 151
+2018-12-27 19:48:30:239 - info: [HTTP] 
+2018-12-27 19:48:32:237 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:32:239 - info: [HTTP] {}
+2018-12-27 19:48:32:253 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:32:257 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:32:275 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 151
+2018-12-27 19:48:32:296 - info: [HTTP] 
+2018-12-27 19:48:34:264 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:34:270 - info: [HTTP] {}
+2018-12-27 19:48:34:271 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:34:276 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:34:291 - info: [HTTP] <-- GET /wd/hub/status 200 16 ms - 151
+2018-12-27 19:48:34:314 - info: [HTTP] 
+2018-12-27 19:48:36:284 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:36:290 - info: [HTTP] {}
+2018-12-27 19:48:36:292 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:36:309 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:36:318 - info: [HTTP] <-- GET /wd/hub/status 200 28 ms - 151
+2018-12-27 19:48:36:319 - info: [HTTP] 
+2018-12-27 19:48:38:315 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:38:316 - info: [HTTP] {}
+2018-12-27 19:48:38:326 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:38:336 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:38:345 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 151
+2018-12-27 19:48:38:355 - info: [HTTP] 
+2018-12-27 19:48:40:346 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:40:346 - info: [HTTP] {}
+2018-12-27 19:48:40:357 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:40:378 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:40:383 - info: [HTTP] <-- GET /wd/hub/status 200 37 ms - 151
+2018-12-27 19:48:40:402 - info: [HTTP] 
+2018-12-27 19:48:42:382 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:42:392 - info: [HTTP] {}
+2018-12-27 19:48:42:395 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:42:397 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:42:407 - info: [HTTP] <-- GET /wd/hub/status 200 17 ms - 151
+2018-12-27 19:48:42:416 - info: [HTTP] 
+2018-12-27 19:48:44:404 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:44:405 - info: [HTTP] {}
+2018-12-27 19:48:44:415 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:44:418 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:44:435 - info: [HTTP] <-- GET /wd/hub/status 200 18 ms - 151
+2018-12-27 19:48:44:439 - info: [HTTP] 
+2018-12-27 19:48:46:435 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:46:436 - info: [HTTP] {}
+2018-12-27 19:48:46:438 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:46:451 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:46:456 - info: [HTTP] <-- GET /wd/hub/status 200 28 ms - 151
+2018-12-27 19:48:46:473 - info: [HTTP] 
+2018-12-27 19:48:48:459 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:48:479 - info: [HTTP] {}
+2018-12-27 19:48:48:482 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:48:488 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:48:506 - info: [HTTP] <-- GET /wd/hub/status 200 33 ms - 151
+2018-12-27 19:48:48:510 - info: [HTTP] 
+2018-12-27 19:48:50:496 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:50:496 - info: [HTTP] {}
+2018-12-27 19:48:50:506 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:50:511 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:50:529 - info: [HTTP] <-- GET /wd/hub/status 200 19 ms - 151
+2018-12-27 19:48:50:533 - info: [HTTP] 
+2018-12-27 19:48:52:519 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:52:535 - info: [HTTP] {}
+2018-12-27 19:48:52:559 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:52:564 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:52:583 - info: [HTTP] <-- GET /wd/hub/status 200 50 ms - 151
+2018-12-27 19:48:52:587 - info: [HTTP] 
+2018-12-27 19:48:54:593 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:54:595 - info: [HTTP] {}
+2018-12-27 19:48:54:612 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:54:615 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:54:634 - info: [HTTP] <-- GET /wd/hub/status 200 47 ms - 151
+2018-12-27 19:48:54:643 - info: [HTTP] 
+2018-12-27 19:48:56:632 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:56:647 - info: [HTTP] {}
+2018-12-27 19:48:56:651 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:56:664 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:56:667 - info: [HTTP] <-- GET /wd/hub/status 200 45 ms - 151
+2018-12-27 19:48:56:680 - info: [HTTP] 
+2018-12-27 19:48:58:699 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:48:58:707 - info: [HTTP] {}
+2018-12-27 19:48:58:710 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:48:58:729 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:48:58:733 - info: [HTTP] <-- GET /wd/hub/status 200 58 ms - 151
+2018-12-27 19:48:58:740 - info: [HTTP] 
+2018-12-27 19:49:00:749 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:00:751 - info: [HTTP] {}
+2018-12-27 19:49:00:753 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:00:756 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:00:762 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 151
+2018-12-27 19:49:00:764 - info: [HTTP] 
+2018-12-27 19:49:02:764 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:02:766 - info: [HTTP] {}
+2018-12-27 19:49:02:780 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:02:783 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:02:791 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 151
+2018-12-27 19:49:02:795 - info: [HTTP] 
+2018-12-27 19:49:04:789 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:04:790 - info: [HTTP] {}
+2018-12-27 19:49:04:797 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:04:799 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:04:806 - info: [HTTP] <-- GET /wd/hub/status 200 12 ms - 151
+2018-12-27 19:49:04:808 - info: [HTTP] 
+2018-12-27 19:49:06:807 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:06:827 - info: [HTTP] {}
+2018-12-27 19:49:06:829 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:06:835 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:06:841 - info: [HTTP] <-- GET /wd/hub/status 200 33 ms - 151
+2018-12-27 19:49:06:859 - info: [HTTP] 
+2018-12-27 19:49:08:845 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:08:852 - info: [HTTP] {}
+2018-12-27 19:49:08:854 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:08:857 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:08:876 - info: [HTTP] <-- GET /wd/hub/status 200 16 ms - 151
+2018-12-27 19:49:08:881 - info: [HTTP] 
+2018-12-27 19:49:10:873 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:10:876 - info: [HTTP] {}
+2018-12-27 19:49:10:877 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:10:891 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:10:896 - info: [HTTP] <-- GET /wd/hub/status 200 30 ms - 151
+2018-12-27 19:49:10:900 - info: [HTTP] 
+2018-12-27 19:49:12:908 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:12:909 - info: [HTTP] {}
+2018-12-27 19:49:12:911 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:12:913 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:12:916 - info: [HTTP] <-- GET /wd/hub/status 200 18 ms - 151
+2018-12-27 19:49:12:918 - info: [HTTP] 
+2018-12-27 19:49:14:919 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:14:926 - info: [HTTP] {}
+2018-12-27 19:49:14:928 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:14:952 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:14:956 - info: [HTTP] <-- GET /wd/hub/status 200 36 ms - 151
+2018-12-27 19:49:14:961 - info: [HTTP] 
+2018-12-27 19:49:16:971 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:16:973 - info: [HTTP] {}
+2018-12-27 19:49:16:980 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:16:987 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:16:992 - info: [HTTP] <-- GET /wd/hub/status 200 30 ms - 151
+2018-12-27 19:49:16:994 - info: [HTTP] 
+2018-12-27 19:49:19:007 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:19:008 - info: [HTTP] {}
+2018-12-27 19:49:19:010 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:19:020 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:19:022 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:49:19:037 - info: [HTTP] 
+2018-12-27 19:49:21:033 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:21:041 - info: [HTTP] {}
+2018-12-27 19:49:21:044 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:21:052 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:21:056 - info: [HTTP] <-- GET /wd/hub/status 200 28 ms - 151
+2018-12-27 19:49:21:072 - info: [HTTP] 
+2018-12-27 19:49:23:064 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:23:069 - info: [HTTP] {}
+2018-12-27 19:49:23:071 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:23:074 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:23:082 - info: [HTTP] <-- GET /wd/hub/status 200 16 ms - 151
+2018-12-27 19:49:23:086 - info: [HTTP] 
+2018-12-27 19:49:25:086 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:25:098 - info: [HTTP] {}
+2018-12-27 19:49:25:102 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:25:120 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:25:124 - info: [HTTP] <-- GET /wd/hub/status 200 41 ms - 151
+2018-12-27 19:49:25:131 - info: [HTTP] 
+2018-12-27 19:49:27:132 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:27:133 - info: [HTTP] {}
+2018-12-27 19:49:27:135 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:27:154 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:27:157 - info: [HTTP] <-- GET /wd/hub/status 200 29 ms - 151
+2018-12-27 19:49:27:175 - info: [HTTP] 
+2018-12-27 19:49:29:181 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:29:195 - info: [HTTP] {}
+2018-12-27 19:49:29:198 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:29:207 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:29:232 - info: [HTTP] <-- GET /wd/hub/status 200 48 ms - 151
+2018-12-27 19:49:29:235 - info: [HTTP] 
+2018-12-27 19:49:31:216 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:31:219 - info: [HTTP] {}
+2018-12-27 19:49:31:224 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:31:226 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:31:231 - info: [HTTP] <-- GET /wd/hub/status 200 12 ms - 151
+2018-12-27 19:49:31:249 - info: [HTTP] 
+2018-12-27 19:49:33:238 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:33:246 - info: [HTTP] {}
+2018-12-27 19:49:33:250 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:33:269 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:33:273 - info: [HTTP] <-- GET /wd/hub/status 200 37 ms - 151
+2018-12-27 19:49:33:284 - info: [HTTP] 
+2018-12-27 19:49:35:278 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:35:285 - info: [HTTP] {}
+2018-12-27 19:49:35:288 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:35:307 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:35:316 - info: [HTTP] <-- GET /wd/hub/status 200 33 ms - 151
+2018-12-27 19:49:35:332 - info: [HTTP] 
+2018-12-27 19:49:37:318 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:37:323 - info: [HTTP] {}
+2018-12-27 19:49:37:325 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:37:336 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:37:345 - info: [HTTP] <-- GET /wd/hub/status 200 22 ms - 151
+2018-12-27 19:49:37:347 - info: [HTTP] 
+2018-12-27 19:49:39:341 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:39:342 - info: [HTTP] {}
+2018-12-27 19:49:39:354 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:39:363 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:39:368 - info: [HTTP] <-- GET /wd/hub/status 200 25 ms - 151
+2018-12-27 19:49:39:369 - info: [HTTP] 
+2018-12-27 19:49:41:385 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:41:389 - info: [HTTP] {}
+2018-12-27 19:49:41:396 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:41:398 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:41:414 - info: [HTTP] <-- GET /wd/hub/status 200 30 ms - 151
+2018-12-27 19:49:41:416 - info: [HTTP] 
+2018-12-27 19:49:43:411 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:43:413 - info: [HTTP] {}
+2018-12-27 19:49:43:432 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:43:446 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:43:464 - info: [HTTP] <-- GET /wd/hub/status 200 41 ms - 151
+2018-12-27 19:49:43:468 - info: [HTTP] 
+2018-12-27 19:49:45:457 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:45:458 - info: [HTTP] {}
+2018-12-27 19:49:45:466 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:45:475 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:45:477 - info: [HTTP] <-- GET /wd/hub/status 200 23 ms - 151
+2018-12-27 19:49:45:480 - info: [HTTP] 
+2018-12-27 19:49:47:492 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:47:494 - info: [HTTP] {}
+2018-12-27 19:49:47:500 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:47:519 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:47:522 - info: [HTTP] <-- GET /wd/hub/status 200 38 ms - 151
+2018-12-27 19:49:47:525 - info: [HTTP] 
+2018-12-27 19:49:49:525 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:49:534 - info: [HTTP] {}
+2018-12-27 19:49:49:556 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:49:559 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:49:566 - info: [HTTP] <-- GET /wd/hub/status 200 37 ms - 151
+2018-12-27 19:49:49:575 - info: [HTTP] 
+2018-12-27 19:49:51:576 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:51:578 - info: [HTTP] {}
+2018-12-27 19:49:51:581 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:51:587 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:51:609 - info: [HTTP] <-- GET /wd/hub/status 200 24 ms - 151
+2018-12-27 19:49:51:630 - info: [HTTP] 
+2018-12-27 19:49:53:594 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:53:597 - info: [HTTP] {}
+2018-12-27 19:49:53:604 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:53:609 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:53:624 - info: [HTTP] <-- GET /wd/hub/status 200 18 ms - 151
+2018-12-27 19:49:53:629 - info: [HTTP] 
+2018-12-27 19:49:55:634 - info: [HTTP] --> GET /wd/hub/status
+2018-12-27 19:49:55:636 - info: [HTTP] {}
+2018-12-27 19:49:55:637 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 19:49:55:640 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-12-27 19:49:55:645 - info: [HTTP] <-- GET /wd/hub/status 200 26 ms - 151
+2018-12-27 19:49:55:647 - info: [HTTP] 

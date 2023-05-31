@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="F:/selenium-prerequisite/jars/appium/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="F:/selenium-prerequisite/jars/appium/commons-validator-1.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/selenium-prerequisite/jars/appium/java-client-4.0.0.jar"/>
+	<classpathentry kind="lib" path="F:/selenium-prerequisite/jars/appium/java-client-4.1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/selenium-prerequisite/jars/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Selenium/Desktop/lib/jai-imageio-core-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Selenium/Desktop/lib/jna-4.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Selenium/Desktop/lib/jna-platform-4.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Selenium/Desktop/lib/jul-to-slf4j-1.7.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Selenium/Desktop/lib/lept4j-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Selenium/Desktop/lib/logback-classic-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Selenium/Desktop/lib/logback-core-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Selenium/Desktop/lib/slf4j-api-1.7.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Selenium/Desktop/lib/tess4j-3.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

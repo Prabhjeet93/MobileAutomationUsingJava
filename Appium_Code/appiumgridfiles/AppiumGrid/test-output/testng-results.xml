@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24796" started-at="2018-12-27T19:43:59Z" finished-at="2018-12-27T19:44:24Z">
+    <groups>
+    </groups>
+    <test name="Samsung Galaxy TabS" duration-ms="21245" started-at="2018-12-27T19:43:59Z" finished-at="2018-12-27T19:44:21Z">
+      <class name="testcases.TestWebBrowser">
+        <test-method status="PASS" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.TestWebBrowser@72d818d1]" name="startTest" is-config="true" duration-ms="13356" started-at="2018-12-27T19:43:59Z" finished-at="2018-12-27T19:44:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4726]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3204d84f4c9c71dd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="testcase()[pri:0, instance:testcases.TestWebBrowser@72d818d1]" name="testcase" duration-ms="6282" started-at="2018-12-27T19:44:13Z" finished-at="2018-12-27T19:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestWebBrowser@72d818d1]" name="tearDown" is-config="true" duration-ms="1574" started-at="2018-12-27T19:44:19Z" finished-at="2018-12-27T19:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestWebBrowser -->
+    </test> <!-- Samsung Galaxy TabS -->
+    <test name="Samsung 7S Edge" duration-ms="24796" started-at="2018-12-27T19:43:59Z" finished-at="2018-12-27T19:44:24Z">
+      <class name="testcases.TestWebBrowser">
+        <test-method status="PASS" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.TestWebBrowser@204f30ec]" name="startTest" is-config="true" duration-ms="14917" started-at="2018-12-27T19:43:59Z" finished-at="2018-12-27T19:44:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4725]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[192.168.1.5:5555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="testcase()[pri:0, instance:testcases.TestWebBrowser@204f30ec]" name="testcase" duration-ms="7237" started-at="2018-12-27T19:44:14Z" finished-at="2018-12-27T19:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestWebBrowser@204f30ec]" name="tearDown" is-config="true" duration-ms="2622" started-at="2018-12-27T19:44:22Z" finished-at="2018-12-27T19:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestWebBrowser -->
+    </test> <!-- Samsung 7S Edge -->
+  </suite> <!-- Suite -->
+</testng-results>

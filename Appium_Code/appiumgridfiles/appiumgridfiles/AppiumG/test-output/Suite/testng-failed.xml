@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Run on IphoneX(failed)" parallel="tests">
+    <parameter name="deviceID" value="571e1c5acf8c4e0d47c6d146186d8749c8fab5b0"/>
+    <classes>
+      <class name="BrowserTest">
+        <methods>
+          <include name="testcase"/>
+          <include name="startTime"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- BrowserTest -->
+    </classes>
+  </test> <!-- Run on IphoneX(failed) -->
+</suite> <!-- Failed suite [Suite] -->

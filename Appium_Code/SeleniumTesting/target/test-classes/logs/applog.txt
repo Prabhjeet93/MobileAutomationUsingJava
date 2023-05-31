@@ -1,0 +1,7 @@
+INFO    2022-06-03 17:55:18,259 [main] testcases.TestProperties  - starting the test case
+INFO    2022-06-03 17:55:18,261 [main] testcases.TestProperties  - OR Property file loaded
+INFO    2022-06-03 17:55:22,605 [main] testcases.TestProperties  - Chrome browser launched 
+INFO    2022-06-03 17:55:26,733 [main] testcases.TestProperties  - Navigating to the Website : http://gmail.com
+INFO    2022-06-03 17:55:27,220 [main] testcases.TestProperties  - Typing in an Element :  username_id  entered the value as : trainer@way2automation.com
+INFO    2022-06-03 17:55:27,349 [main] testcases.TestProperties  - Clicking on Element :  submit_xpath
+INFO    2022-06-03 17:55:27,515 [main] testcases.TestProperties  - Test Execution completed !!!

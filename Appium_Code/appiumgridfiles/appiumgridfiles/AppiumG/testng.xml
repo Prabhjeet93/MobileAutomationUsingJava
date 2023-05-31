@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+	<test name="Run on IphoneX">
+		<parameter name="deviceID" value="571e1c5acf8c4e0d47c6d146186d8749c8fab5b0"></parameter>
+		  <classes>
+           <class name ="BrowserTest"></class>
+       </classes>
+	</test>
+	
+	<test name="Run on Iphone7Plus">
+		<parameter name="deviceID" value="7ae544323f497983cf0729bc81d5e6128342a125"></parameter>
+		  <classes>
+           <class name ="BrowserTest"></class>
+       </classes>
+	</test>
+	
+
+</suite>
